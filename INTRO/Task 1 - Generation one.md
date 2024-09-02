@@ -1,5 +1,3 @@
-![[Screenshot from 2024-09-01 11-47-45.png]]
-
 Welcome to Holo!
 
 Holo is an Active Directory and Web Application attack lab that teaches core web attack vectors and advanced\obscure Active Directory attacks along with general red teaming methodology and concepts.
@@ -34,3 +32,5 @@ This network simulates an external penetration test on a corporate network "Holo
 ---
 
 This network brings you from zero to red-team, but you are expected to have a general understanding of basic Windows and Linux architecture and the command line for both Windows and Linux. If you need help, please feel free to ask in the TryHackMe Discord; there is a channel set up for this purpose in the help section there.
+
+**Next step:** [[Task 2 - Patching into the Matrix]]
