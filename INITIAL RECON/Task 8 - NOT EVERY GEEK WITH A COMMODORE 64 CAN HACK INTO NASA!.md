@@ -34,7 +34,20 @@ Run a full port scan to find the open ports.
 
 ![[Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903151622432.webp]]
 
-There are 3 open ports: 22, 80 and 33060.
+
+### Detail nmap
+
+`nmap -sC -sV -T4 10.200.X.33 -p 22,80,33060 -oA webserver_nmap`
+
+![[Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240904135705372.webp]]
+
+So there are 3 ports open : SSH on 22, Http on 80 and mysql on 33060. The detailed nmap scan gives me a lot of info on them.
+
+1. The SSH port version says the machine might run a Ubuntu Linux OS. Also the http port says it might be Ubuntu, so we are kinda sure that we are facing a Ubuntu Linux. which is a great fingerprinting.
+2. HTTP port means there might be a webserver and nmap scan tells it’s running Apache webserver. So there must be a website.
+3. Nmap fingerprinted that there’s wordpress version 5.5.3 running in port 80 which will help us finding vulnerabilities related to that.
+4. The info about `robots.txt` file is also interesting as we see there are 21 disallowed entries. We can see them by visiting the `/robots.txt` directory.
+5. The title of the page is `holo.live` which means we are on the right website as our client was named holo. I will make sure to add this name to our hosts file for name resolution.
 
 ## Visit the Web on port 80
 
@@ -55,19 +68,19 @@ There are 3 open ports: 22, 80 and 33060.
 ## Answer the questions below
 
 > What is the last octet of the IP address of the public-facing web server?
-> 33
+> `33`
 
 > How many ports are open on the web server?
-> 3
+> `3`
 
 > What CME is running on port 80 of the web server?
-> WordPress
+> `WordPress`
 
 > What version of the CME is running on port 80 of the web server?
-> 5.5.3
+> `5.5.3`
 
 > What is the HTTP title of the web server?
-> holo.live
+> `holo.live`
 
 
 **Next step:** [[Punk Rock 101 err Web App 101]]

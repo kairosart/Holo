@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRO/Task 3 - Kill Chain.md",
+                "file": "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
+                "file": "Images/Punk Rock 101 err Web App 101.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Punk Rock 101 err Web App 101.md",
+                "file": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "john",
+                "query": "robot",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB APP EXPLOITATION/Punk Rock 101 err Web App 101.md",
+                "file": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB APP EXPLOITATION/Punk Rock 101 err Web App 101.md"
+                "file": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md"
               }
             }
           },
@@ -180,28 +180,30 @@
   },
   "active": "f9dfb0bcd72bfdbb",
   "lastOpenFiles": [
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
+    "Images/Punk Rock 101 err Web App 101.md",
+    "Images/Task 10 - What the Fuzz?-20240904145701756.webp",
+    "Images/Task 10 - What the Fuzz?-20240904145235469.webp",
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
+    "INTRO/Task 3 - Kill Chain.md",
+    "Images/Task 10 - What the Fuzz?-20240904144440759.webp",
+    "Images/Punk Rock 101 err Web App 101-20240904141410874.webp",
+    "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240904135705372.webp",
     "Untitled.md",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "WEB APP EXPLOITATION/Punk Rock 101 err Web App 101.md",
     "WEB APP EXPLOITATION",
     "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903153232338.webp",
     "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903152842205.webp",
     "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903152634588.webp",
     "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903151622432.webp",
     "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903151129988.webp",
-    "INTRO/Task 3 - Kill Chain.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
     "INTRO/Task 1 - Generation one.md",
     "INITIAL RECON",
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "COMPETITION/Task 5 - Pwning & Prizes.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "Images/Rage Against the Compiler-20240902142243153.webp",
-    "Images/Rage Against the Compiler-20240902142020711.webp",
-    "Rage Against the Compiler-20240902141846451.webp",
-    "Images/Rage Against the Compiler-20240902141702654.webp",
-    "Images/Screenshot from 2024-09-02 20-00-40.png",
     "NET BASICS",
     "COMPETITION",
     "FLAG SUBMISION/Untitled",
@@ -223,8 +225,6 @@
     "LATERAL MOVEMENT/Bloodhound.md",
     "LATERAL MOVEMENT/AS-REP Roasting.md",
     "FINDING SERVICES AND PORTS/SMB service.md",
-    "FINDING SERVICES AND PORTS/Nmap.md",
-    "EXPLOITATION/Initial access.md",
-    "EXPLOITATION/Getting a shell.md"
+    "FINDING SERVICES AND PORTS/Nmap.md"
   ]
 }
