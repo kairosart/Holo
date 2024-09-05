@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
+                "file": "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Images/Punk Rock 101 err Web App 101.md",
+                "file": "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
+                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1c38ff5036a6a86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "robot",
+                "query": "wfuzz",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
+                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md"
+                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md"
               }
             }
           },
@@ -178,30 +191,34 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f9dfb0bcd72bfdbb",
+  "active": "f1c38ff5036a6a86",
   "lastOpenFiles": [
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
-    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
-    "Images/Punk Rock 101 err Web App 101.md",
-    "Images/Task 10 - What the Fuzz?-20240904145701756.webp",
-    "Images/Task 10 - What the Fuzz?-20240904145235469.webp",
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+    "POST EXPLOITATION",
     "INTRO/Task 3 - Kill Chain.md",
-    "Images/Task 10 - What the Fuzz?-20240904144440759.webp",
-    "Images/Punk Rock 101 err Web App 101-20240904141410874.webp",
-    "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240904135705372.webp",
-    "Untitled.md",
-    "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "WEB APP EXPLOITATION",
-    "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903153232338.webp",
-    "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903152842205.webp",
-    "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903152634588.webp",
-    "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903151622432.webp",
-    "Images/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!-20240903151129988.webp",
     "INTRO/Task 2 - Patching into the Matrix.md",
     "INTRO/Task 1 - Generation one.md",
-    "INITIAL RECON",
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
+    "NET BASICS/Task 7 - Rage Against the Compiler.md",
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
+    "Task 13 - Remote Control Empanadas-20240905150748521.webp",
+    "Task 13 - Remote Control Empanadas-20240905150407263.webp",
+    "Images/Task 13 - Remote Control Empanadas-20240905150032028.webp",
+    "Images/Task 13 - Remote Control Empanadas-20240905145623574.webp",
+    "Images/Task 13 - Remote Control Empanadas-20240905142604534.webp",
+    "Images/Task 13 - Remote Control Empanadas-20240905142323219.webp",
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
+    "Images/Task 12 -  What is this? Vulnversity?-20240905140836782.webp",
+    "Images/Punk Rock 101 err Web App 101.md",
+    "Images/Task 12 -  What is this? Vulnversity?-20240905135804034.webp",
+    "Images/Task 12 -  What is this? Vulnversity?-20240905134853070.webp",
+    "Images/Task 10 - What the Fuzz?-20240904145701756.webp",
+    "Untitled.md",
+    "WEB APP EXPLOITATION",
+    "INITIAL RECON",
     "COMPETITION/Task 5 - Pwning & Prizes.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "NET BASICS",
@@ -212,7 +229,6 @@
     "docs/lib/metadata.json",
     "docs/lib/fonts/MathJax_Vector-Bold.woff",
     "docs/lib/fonts/MathJax_Vector-Regular.woff",
-    "docs/lib/fonts/MathJax_Typewriter-Regular.woff",
     "EXPLOITATION/SSRF Vulnerability.md",
     "EXPLOITATION/Reverse shell.md",
     "ENUMERATION/Ports and services.md",
@@ -222,9 +238,6 @@
     "ENUMERATION/DIG - DNS Enumeration.md",
     "PRIVILEGE ESCALATION/Root's flag.md",
     "PRIVILEGE ESCALATION/Delegation.md",
-    "LATERAL MOVEMENT/Bloodhound.md",
-    "LATERAL MOVEMENT/AS-REP Roasting.md",
-    "FINDING SERVICES AND PORTS/SMB service.md",
-    "FINDING SERVICES AND PORTS/Nmap.md"
+    "LATERAL MOVEMENT/Bloodhound.md"
   ]
 }
