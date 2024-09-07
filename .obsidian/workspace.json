@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,15 +52,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
-                "mode": "source",
+                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md"
+                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md"
               }
             }
           },
@@ -191,11 +191,15 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f1c38ff5036a6a86",
+  "active": "f9dfb0bcd72bfdbb",
   "lastOpenFiles": [
-    "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+    "SITUATIONAL AWARANESS",
+    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907133230772.webp",
+    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907132955710.webp",
+    "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
     "POST EXPLOITATION",
     "INTRO/Task 3 - Kill Chain.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
@@ -204,7 +208,7 @@
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
-    "Task 13 - Remote Control Empanadas-20240905150748521.webp",
+    "Images/Task 13 - Remote Control Empanadas-20240905150748521.webp",
     "Task 13 - Remote Control Empanadas-20240905150407263.webp",
     "Images/Task 13 - Remote Control Empanadas-20240905150032028.webp",
     "Images/Task 13 - Remote Control Empanadas-20240905145623574.webp",
@@ -214,8 +218,6 @@
     "Images/Task 12 -  What is this? Vulnversity?-20240905140836782.webp",
     "Images/Punk Rock 101 err Web App 101.md",
     "Images/Task 12 -  What is this? Vulnversity?-20240905135804034.webp",
-    "Images/Task 12 -  What is this? Vulnversity?-20240905134853070.webp",
-    "Images/Task 10 - What the Fuzz?-20240904145701756.webp",
     "Untitled.md",
     "WEB APP EXPLOITATION",
     "INITIAL RECON",
@@ -228,7 +230,6 @@
     "index.md",
     "docs/lib/metadata.json",
     "docs/lib/fonts/MathJax_Vector-Bold.woff",
-    "docs/lib/fonts/MathJax_Vector-Regular.woff",
     "EXPLOITATION/SSRF Vulnerability.md",
     "EXPLOITATION/Reverse shell.md",
     "ENUMERATION/Ports and services.md",
@@ -237,7 +238,6 @@
     "ENUMERATION/Hydra.md",
     "ENUMERATION/DIG - DNS Enumeration.md",
     "PRIVILEGE ESCALATION/Root's flag.md",
-    "PRIVILEGE ESCALATION/Delegation.md",
-    "LATERAL MOVEMENT/Bloodhound.md"
+    "PRIVILEGE ESCALATION/Delegation.md"
   ]
 }
