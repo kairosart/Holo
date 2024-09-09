@@ -6,6 +6,7 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
+        "dimension": 66.37717121588089,
         "children": [
           {
             "id": "53ef366a70793951",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -45,22 +46,29 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "916459c5b976f019",
+        "type": "tabs",
+        "dimension": 33.62282878411911,
+        "children": [
           {
-            "id": "f1c38ff5036a6a86",
+            "id": "2fc6409b65003109",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-                "mode": "preview",
+                "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wfuzz",
+                "query": "/bin/bash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,31 +201,32 @@
   },
   "active": "f9dfb0bcd72bfdbb",
   "lastOpenFiles": [
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "Images/Task - 15 Docker? I hardly even know her!-20240909151319865.webp",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "Images/Punk Rock 101 err Web App 101.md",
+    "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
+    "Images/Task - 15 Docker? I hardly even know her!-20240909135055611.webp",
+    "Images/Task - 15 Docker? I hardly even know her!-20240909134455466.webp",
+    "Images/Task - 15 Docker? I hardly even know her!-20240909133501872.webp",
+    "Images/Task - 15 Docker? I hardly even know her!-20240909134102884.webp",
+    "Images/Task - 15 Docker? I hardly even know her!-20240909133807008.webp",
+    "NET BASICS/Task 7 - Rage Against the Compiler.md",
+    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "SITUATIONAL AWARANESS",
     "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907133230772.webp",
     "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907132955710.webp",
-    "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
     "POST EXPLOITATION",
     "INTRO/Task 3 - Kill Chain.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
     "INTRO/Task 1 - Generation one.md",
-    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
-    "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
-    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
     "Images/Task 13 - Remote Control Empanadas-20240905150748521.webp",
     "Task 13 - Remote Control Empanadas-20240905150407263.webp",
-    "Images/Task 13 - Remote Control Empanadas-20240905150032028.webp",
-    "Images/Task 13 - Remote Control Empanadas-20240905145623574.webp",
-    "Images/Task 13 - Remote Control Empanadas-20240905142604534.webp",
-    "Images/Task 13 - Remote Control Empanadas-20240905142323219.webp",
-    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
-    "Images/Task 12 -  What is this? Vulnversity?-20240905140836782.webp",
-    "Images/Punk Rock 101 err Web App 101.md",
-    "Images/Task 12 -  What is this? Vulnversity?-20240905135804034.webp",
     "Untitled.md",
     "WEB APP EXPLOITATION",
     "INITIAL RECON",
@@ -237,7 +246,6 @@
     "ENUMERATION/Port 8080.md",
     "ENUMERATION/Hydra.md",
     "ENUMERATION/DIG - DNS Enumeration.md",
-    "PRIVILEGE ESCALATION/Root's flag.md",
-    "PRIVILEGE ESCALATION/Delegation.md"
+    "PRIVILEGE ESCALATION/Root's flag.md"
   ]
 }

