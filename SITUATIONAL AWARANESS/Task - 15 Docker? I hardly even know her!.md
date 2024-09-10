@@ -50,4 +50,13 @@ Cgroups are used by containerization software such as LXC or Docker. Let's look 
 	You'll get a very important information at the beginning. It says we are inside a Docker environment. So that means we are not actually in the `.33` machine, we got the shell in a container that is running inside `.33` machine.
 
 
+## Flag on L-SRV02
+
+On the Reverse Shell go to `www-data@8a178600e3d1:/var/www$` and run:
+
+`cat user.txt`
+
+HOLO{175d7322f8fc53392a417ccde356c3fe}
+
+**Next step:** [[Task 16 - Living off the LANd]]
 

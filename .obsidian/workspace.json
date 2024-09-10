@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
+                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -40,15 +40,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+                "file": "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "916459c5b976f019",
@@ -97,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/bin/bash",
+                "query": "Your job",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md"
+                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md"
               }
             }
           },
@@ -199,16 +198,25 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f9dfb0bcd72bfdbb",
+  "active": "53ef366a70793951",
   "lastOpenFiles": [
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "Images/Task - 15 Docker? I hardly even know her!-20240909151319865.webp",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240910150823201.webp",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907133230772.webp",
+    "Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240910150700382.webp",
+    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907132955710.webp",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
-    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
+    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
+    "NET BASICS/Task 7 - Rage Against the Compiler.md",
+    "INTRO/Task 2 - Patching into the Matrix.md",
+    "INTRO/Task 3 - Kill Chain.md",
+    "Images/Task - 15 Docker? I hardly even know her!-20240909151319865.webp",
     "Images/Punk Rock 101 err Web App 101.md",
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
     "Images/Task - 15 Docker? I hardly even know her!-20240909135055611.webp",
@@ -216,17 +224,9 @@
     "Images/Task - 15 Docker? I hardly even know her!-20240909133501872.webp",
     "Images/Task - 15 Docker? I hardly even know her!-20240909134102884.webp",
     "Images/Task - 15 Docker? I hardly even know her!-20240909133807008.webp",
-    "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "SITUATIONAL AWARANESS",
-    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907133230772.webp",
-    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907132955710.webp",
     "POST EXPLOITATION",
-    "INTRO/Task 3 - Kill Chain.md",
-    "INTRO/Task 2 - Patching into the Matrix.md",
     "INTRO/Task 1 - Generation one.md",
-    "Images/Task 13 - Remote Control Empanadas-20240905150748521.webp",
-    "Task 13 - Remote Control Empanadas-20240905150407263.webp",
     "Untitled.md",
     "WEB APP EXPLOITATION",
     "INITIAL RECON",
@@ -244,8 +244,6 @@
     "ENUMERATION/Ports and services.md",
     "ENUMERATION/Port 11025.md",
     "ENUMERATION/Port 8080.md",
-    "ENUMERATION/Hydra.md",
-    "ENUMERATION/DIG - DNS Enumeration.md",
-    "PRIVILEGE ESCALATION/Root's flag.md"
+    "ENUMERATION/Hydra.md"
   ]
 }
