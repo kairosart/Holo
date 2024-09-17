@@ -10,6 +10,12 @@
       "type": "file",
       "ctime": 1725815755105,
       "path": "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1726596461706,
+      "path": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+      "title": "Reverse Shell"
     }
   ]
 }
