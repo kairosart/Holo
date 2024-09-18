@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+                "file": "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -62,7 +62,7 @@
               "type": "markdown",
               "state": {
                 "file": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nc -lnvp 11000",
+                "query": "TASK 16",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -204,11 +204,11 @@
   "active": "f9dfb0bcd72bfdbb",
   "lastOpenFiles": [
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "Images/Task 18 - Making Thin Lizzy Proud-20240917143142963.webp",
     "Images/Task 18 - Making Thin Lizzy Proud-20240917143015435.webp",
     "Images/Task 18 - Making Thin Lizzy Proud-20240917142609190.webp",
