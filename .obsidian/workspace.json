@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -40,11 +40,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "056200a6488a596b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -61,8 +69,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-                "mode": "preview",
+                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -114,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md"
+                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md"
               }
             }
           },
@@ -203,12 +210,18 @@
   },
   "active": "f9dfb0bcd72bfdbb",
   "lastOpenFiles": [
-    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+    "Images/Task 20 - Call me Mario, because I got all the bits-20240919143826003.webp",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+    "Images/Task 20 - Call me Mario, because I got all the bits-20240919143733244.webp",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
-    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
+    "Images/Task 20 - Call me Mario, because I got all the bits-20240919143651873.webp",
+    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+    "PRIVILEGE ESCALATION",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "Images/Task 19 - Going out with a SHEBANG!-20240919140944870.webp",
     "Images/Task 18 - Making Thin Lizzy Proud-20240917143142963.webp",
     "Images/Task 18 - Making Thin Lizzy Proud-20240917143015435.webp",
     "Images/Task 18 - Making Thin Lizzy Proud-20240917142609190.webp",
@@ -218,10 +231,6 @@
     "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240910150700382.webp",
     "DOCKER BREAKOUT",
     "Images/Task 17 - Dorkus Storkus - Protector of the Database-20240911151650568.webp",
-    "Images/Task 17 - Dorkus Storkus - Protector of the Database-20240911152009979.webp",
-    "Images/Task 17 - Dorkus Storkus - Protector of the Database-20240911151811531.webp",
-    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240910150823201.webp",
-    "Images/Task 14 - Meterpreter session 1 closed. Reason RUH ROH-20240907133230772.webp",
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
@@ -243,11 +252,8 @@
     "FLAG SUBMISION/Untitled",
     "FLAG SUBMISSION",
     "index.md",
-    "docs/lib/metadata.json",
     "EXPLOITATION/SSRF Vulnerability.md",
     "EXPLOITATION/Reverse shell.md",
-    "ENUMERATION/Ports and services.md",
-    "ENUMERATION/Port 11025.md",
-    "ENUMERATION/Port 8080.md"
+    "ENUMERATION/Ports and services.md"
   ]
 }

