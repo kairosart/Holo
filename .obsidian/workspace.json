@@ -40,8 +40,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-                "mode": "preview",
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "file": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -61,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "916459c5b976f019",
@@ -74,8 +74,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-                "mode": "preview",
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -95,22 +95,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4beb08204029d61",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "byModifiedTime"
-              }
-            }
-          },
-          {
             "id": "c95a1c9e00e29c6f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "TASK 16",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md"
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md"
               }
             }
           },
@@ -213,27 +203,32 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "056200a6488a596b",
+  "active": "f9dfb0bcd72bfdbb",
   "lastOpenFiles": [
-    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "Diagram.svg",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "Diagram.svg.xml",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+    "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
+    "COMMAND AND CONTROL",
+    "Images/Task 23 - Digging a tunnel to nowhere-20240926150205470.webp",
+    "Images/Task 23 - Digging a tunnel to nowhere-20240926150119258.webp",
+    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "Images/Task 21 - From the Shadows-20240926144242939.webp",
+    "PIVOTING",
+    "Images/Taask 22 - Crack all the Things-20240926145010770.webp",
+    "Images/Taask 22 - Crack all the Things-20240926144953629.webp",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "Images/Task 21 - From the Shadows-20240924134929338.webp",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
-    "Untitled",
     "Images/Task 20 - Call me Mario, because I got all the bits-20240920152724566.webp",
     "Images/Task 20 - Call me Mario, because I got all the bits-20240920152123566.webp",
     "Images/Task 20 - Call me Mario, because I got all the bits-20240920151524586.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240920150939806.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240920144647952.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240920143901051.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240919143826003.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240919143733244.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240919143651873.webp",
     "PRIVILEGE ESCALATION",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
@@ -254,11 +249,6 @@
     "INITIAL RECON",
     "COMPETITION/Task 5 - Pwning & Prizes.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "NET BASICS",
-    "COMPETITION",
-    "FLAG SUBMISION/Untitled",
-    "index.md",
-    "EXPLOITATION/SSRF Vulnerability.md",
-    "EXPLOITATION/Reverse shell.md"
+    "NET BASICS"
   ]
 }
