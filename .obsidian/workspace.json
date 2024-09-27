@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+                "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -116,8 +116,19 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "6c994e66ece44a7b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -207,8 +218,13 @@
   "lastOpenFiles": [
     "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "Diagram.svg",
+    "Images/Task 24 - Command your Foes and Control your Friends-20240927134255397.webp",
+    "Images/Task 24 - Command your Foes and Control your Friends-20240927134346264.webp",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "Diagram.svg",
     "Diagram.svg.xml",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
@@ -220,15 +236,10 @@
     "PIVOTING",
     "Images/Taask 22 - Crack all the Things-20240926145010770.webp",
     "Images/Taask 22 - Crack all the Things-20240926144953629.webp",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "Images/Task 21 - From the Shadows-20240924134929338.webp",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
     "Images/Task 20 - Call me Mario, because I got all the bits-20240920152724566.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240920152123566.webp",
-    "Images/Task 20 - Call me Mario, because I got all the bits-20240920151524586.webp",
     "PRIVILEGE ESCALATION",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",

@@ -11,6 +11,8 @@ There are several tools outlined below that can help us in pivoting.
 
 In this task, we will be focusing on both Chisel and sshuttle, each offering unique ways to approach pivoting.  
 
+## Chisel
+
 The first tool that we will be looking at is Chisel. From the Chisel GitHub, "Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single executable, including both client and server. Written in Go (Golang). Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network."  
 
 From the Chisel GitHub, below is an overview of chisel architecture.
@@ -42,8 +44,8 @@ To use the proxy, you will need to prepend any commands you want to route throug
 Example usage: `proxychains curl http://<IP>`
 
 
----
 
+## sshuttle
 The second tool we will be looking at is sshuttle. Sshuttle is unique in its approaches to pivoting because all of its techniques are done remotely from the attacking machine and do not require the configuration of proxychains. However, a few of the disadvantages of sshuttle are that it will only work if there is an ssh server running on the machine, and it will not work on Windows hosts. You can download sshuttle from GitHub, [https://github.com/sshuttle/sshuttle](https://github.com/sshuttle/sshuttle)  
 
 Using sshuttle is relatively easy and only requires one command. For sshuttle to work, you only need to specify one parameter, -r . With this parameter, you will specify the user and target like you would for a standard ssh connection. You will also need to specify the CIDR range of the network; this does not require a parameter. Find an example of syntax below.  
@@ -60,9 +62,16 @@ For more information about sshuttle and how to use it, check out the documentati
 Before you can pivot, you do need to know where you are in the network and where you are trying to get to.
 Creating a Network Diagram is the best way to do it.
 
-
 ![[Diagram.svg]]
 
+The above diagram shows the route: 
+- You went via a docker container and back to the host that had the 4 websites right back at the start. 
+- Then you got root on that via docker.
+- You added a SSH key so you now have direct access to that box via SSH as either the **root** user or the **linux-admin** user with the cracked password.
+- Looking at y your THM dashboard, two new IP have appeared, which are 10.200.X.30 and 10.200.X.31. 
+- You cannot ping this from your host, so instead you will have to pivot through the webserver (L-SRV01) host to gain access to it.
+
+## Pivoting with chisel
 
 
 
