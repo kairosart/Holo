@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -216,16 +216,16 @@
   },
   "active": "4cf65ed6bea3d5cf",
   "lastOpenFiles": [
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "index.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "Images/Task 24 - Command your Foes and Control your Friends-20240927134255397.webp",
     "Images/Task 24 - Command your Foes and Control your Friends-20240927134346264.webp",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "Diagram.svg",
