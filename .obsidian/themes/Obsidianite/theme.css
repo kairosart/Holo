@@ -1009,7 +1009,7 @@ blockquote {
   border-bottom-right-radius: 5px;
   margin-bottom: 2em;
   margin-right: 0 !important;
-  border-left: 3px rgba(14, 210, 247, 0.5) solid;
+  border-left: 3px rgba(16, 215, 13, 0.5) solid;
   border-top: transparent;
   border-bottom: transparent;
   border-right: transparent;
@@ -1024,7 +1024,7 @@ blockquote {
   left: 0px;
   height: 2px;
   width: 60%;
-  background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #13111a);
+  background: linear-gradient(90deg, rgba(16, 215, 13, 0.5), #13111a);
 }
 
 .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote + .HyperMD-quote::before {
@@ -1039,7 +1039,7 @@ blockquote {
   left: 0px;
   height: 2px;
   width: 25%;
-  background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #15131c);
+  background: linear-gradient(90deg, rgba(16, 215, 13, 0.5), #15131c);
 }
 
 .HyperMD-quote.HyperMD-quote-2::before,
