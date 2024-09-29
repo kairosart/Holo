@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -61,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "916459c5b976f019",
@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "file": "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md"
+                "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md"
               }
             }
           },
@@ -214,19 +214,22 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f9dfb0bcd72bfdbb",
+  "active": "4cf65ed6bea3d5cf",
   "lastOpenFiles": [
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "index.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+    "INTRO/Task 2 - Patching into the Matrix.md",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "Images/Task 24 - Command your Foes and Control your Friends-20240927134255397.webp",
     "Images/Task 24 - Command your Foes and Control your Friends-20240927134346264.webp",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "Diagram.svg",
     "Diagram.svg.xml",
-    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
     "COMMAND AND CONTROL",
     "Images/Task 23 - Digging a tunnel to nowhere-20240926150205470.webp",
@@ -244,11 +247,9 @@
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "DOCKER BREAKOUT",
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "INTRO/Task 2 - Patching into the Matrix.md",
     "INTRO/Task 3 - Kill Chain.md",
     "Images/Punk Rock 101 err Web App 101.md",
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",

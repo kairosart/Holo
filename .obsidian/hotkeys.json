@@ -7,5 +7,23 @@
       ],
       "key": "D"
     }
+  ],
+  "css-editor:create-css-snippet": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "css-snippets:refresh-styles": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }

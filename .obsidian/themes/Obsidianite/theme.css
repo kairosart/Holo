@@ -49,7 +49,7 @@
   --background-secondary: #191621;
   --background-secondary-alt: #0d0b12;
   --text-normal: #bebebe;
-  --text-accent: #0fb6d6;
+  --text-accent: #2ad60f;
   --text-sub-accent: #f4569d;
   --text-dim: #45aaff;
   --text-faint: #7aa2f7;
@@ -64,7 +64,7 @@
   --text-mark: #263d92;
   --code-background: var(--background-secondary);
   --interactive-accent: rgba(14, 210, 247, 0.5);
-  --interactive-accent-hover: rgba(14, 210, 247, 0.8);
+  --interactive-accent-hover: rgba(45, 247, 14, 0.8);
   --interactive-before: #5e6565;
   --blockquote-border: #4aa8fb;
   --tag-background: rgba(14, 210, 247, 0.15);
@@ -73,7 +73,7 @@
   --font-family-preview: 'Rubik';
   --bg-sub-accent-55: rgba(244, 86, 157, 0.55);
   --bg-accent-55: rgba(14, 210, 247, 0.55);
-  --bg-accent-25: rgba(14, 210, 247, 0.25);
+  --bg-accent-25: rgba(68, 247, 14, 0.885);
   --text-highlight-bg: rgba(244, 86, 157, 0.25);
   --background-modifier-border: rgba(14, 210, 247, 0.05);
   --table-border-color: rgb(14, 210, 247, 0.15);
@@ -850,7 +850,7 @@ h6 a.tag {
 }
 
 .cm-s-obsidian span.cm-inline-code {
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: var(--text-accent);
 }
 
 .cm-s-obsidian span.cm-inline-code.cm-formatting-code {
@@ -1095,7 +1095,7 @@ blockquote {
   word-wrap: break-word;
   padding: 0 5px;
   border-radius: 0.3rem;
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: rgba(41, 247, 14, 0.9) !important;
 }
 
 .theme-dark :not(pre) > code[class*='language-'],
