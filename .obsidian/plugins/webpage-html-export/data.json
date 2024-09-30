@@ -4,7 +4,7 @@
   "inlineAssets": true,
   "includePluginCSS": "",
   "includeSvelteCSS": true,
-  "titleProperty": "title",
+  "titleProperty": "Holo",
   "customHeadContentPath": "",
   "faviconPath": "",
   "documentWidth": "40em",
@@ -43,10 +43,23 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "/media/sf_obsidian/Iron Corp/docs",
+  "exportPath": "/media/sf_obsidian/Holo/docs",
   "filesToExport": [
     [
-      "all"
+      "COMMAND AND CONTROL",
+      "COMPETITION",
+      "DOCKER BREAKOUT",
+      "FLAG SUBMISSION",
+      "INITIAL RECON",
+      "INTRO",
+      "NET BASICS",
+      "PIVOTING",
+      "POST EXPLOITATION",
+      "PRIVILEGE ESCALATION",
+      "SITUATIONAL AWARANESS",
+      "WEB APP EXPLOITATION",
+      "Images/Diagram.svg",
+      "index.md"
     ]
   ]
 }

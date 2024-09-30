@@ -1,0 +1,301 @@
+{
+  "vaultName": "Reset",
+  "lastExport": 1727721600874,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "COMPETITION/Task 5 - Pwning & Prizes.md",
+    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
+    "Images/Diagram.svg.xml",
+    "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
+    "INTRO/Task 1 - Generation one.md",
+    "INTRO/Task 2 - Patching into the Matrix.md",
+    "INTRO/Task 3 - Kill Chain.md",
+    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
+    "NET BASICS/Task 7 - Rage Against the Compiler.md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
+    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
+    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
+    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+    "index.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg"
+  ],
+  "fileInfo": {
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 3386,
+      "exportedPath": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.html",
+      "dependencies": []
+    },
+    "COMPETITION/Task 5 - Pwning & Prizes.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 2053,
+      "exportedPath": "COMPETITION/Task 5 - Pwning & Prizes.html",
+      "dependencies": []
+    },
+    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 4337,
+      "exportedPath": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.html",
+      "dependencies": []
+    },
+    "DOCKER BREAKOUT/Task 19 - Going out with a SHEBANG!.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 3898,
+      "exportedPath": "DOCKER BREAKOUT/Task 19 - Going out with a SHEBANG!.html",
+      "dependencies": []
+    },
+    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 539,
+      "exportedPath": "FLAG SUBMISSION/Task 4 - Flag Submission Panel.html",
+      "dependencies": []
+    },
+    "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 3665,
+      "exportedPath": "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.html",
+      "dependencies": []
+    },
+    "INTRO/Task 1 - Generation one.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 1441,
+      "exportedPath": "INTRO/Task 1 - Generation one.html",
+      "dependencies": []
+    },
+    "INTRO/Task 2 - Patching into the Matrix.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 1775,
+      "exportedPath": "INTRO/Task 2 - Patching into the Matrix.html",
+      "dependencies": []
+    },
+    "INTRO/Task 3 - Kill Chain.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 2859,
+      "exportedPath": "INTRO/Task 3 - Kill Chain.html",
+      "dependencies": []
+    },
+    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 2946,
+      "exportedPath": "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.html",
+      "dependencies": []
+    },
+    "NET BASICS/Task 7 - Rage Against the Compiler.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 3254,
+      "exportedPath": "NET BASICS/Task 7 - Rage Against the Compiler.html",
+      "dependencies": []
+    },
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 5172,
+      "exportedPath": "PIVOTING/Task 23 - Digging a tunnel to nowhere.html",
+      "dependencies": []
+    },
+    "POST EXPLOITATION/Taask 22 - Crack all the Things.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 2656,
+      "exportedPath": "POST EXPLOITATION/Taask 22 - Crack all the Things.html",
+      "dependencies": []
+    },
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 2896,
+      "exportedPath": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.html",
+      "dependencies": []
+    },
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 6597,
+      "exportedPath": "POST EXPLOITATION/Task 16 - Living off the LANd.html",
+      "dependencies": []
+    },
+    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 4689,
+      "exportedPath": "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.html",
+      "dependencies": []
+    },
+    "POST EXPLOITATION/Task 21 - From the Shadows.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 1923,
+      "exportedPath": "POST EXPLOITATION/Task 21 - From the Shadows.html",
+      "dependencies": []
+    },
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 7149,
+      "exportedPath": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.html",
+      "dependencies": []
+    },
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 3801,
+      "exportedPath": "SITUATIONAL AWARANESS/Task - 15 Docker/Task - 15 Docker.html",
+      "dependencies": []
+    },
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 6270,
+      "exportedPath": "WEB APP EXPLOITATION/Task 10 - What the Fuzz/Task 10 - What the Fuzz.html",
+      "dependencies": []
+    },
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 677,
+      "exportedPath": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.html",
+      "dependencies": []
+    },
+    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 4268,
+      "exportedPath": "WEB APP EXPLOITATION/Task 12 -  What is this/Task 12 -  What is this.html",
+      "dependencies": []
+    },
+    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 3570,
+      "exportedPath": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 1432,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "Images/Diagram.svg.xml": {
+      "modifiedTime": 1727721600874,
+      "sourceSize": 2734,
+      "exportedPath": "Images/Diagram.svg.xml",
+      "dependencies": []
+    }
+  }
+}
