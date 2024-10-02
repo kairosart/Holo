@@ -8,28 +8,60 @@ For more information about Covenant, check out the Covenant GitHub wiki, [](htt
 
 The Covenant installation is relatively straightforward, with a few quirks and areas that may need troubleshooting. The installation requires two separate central installs: .NET Core SDK and downloading Covenant itself.  
 
-To begin setting up Covenant, we will begin with installing the .NET Core SDK. Covenant requires .NET Core SDK 3.1.0. You can download the SDK from either the .NET downloads page or adding the .NET repositories and downloading via apt.
+## ~~Installing .NET Core SDK 3.1.0~~
 
-For more information about downloading via the downloads page, check out this link, [https://dotnet.microsoft.com/download/dotnet/3.1](https://dotnet.microsoft.com/download/dotnet/3.1).  
+~~To begin setting up Covenant, we will begin with installing the .NET Core SDK. Covenant requires .NET Core SDK 3.1.0. You can download the SDK from either the .NET downloads page or adding the .NET repositories and downloading via apt.~~
 
-For more information about downloading via the repositories, check out this link, [https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu)  
+~~For more information about downloading via the downloads page, check out this link, [https://dotnet.microsoft.com/download/dotnet/3.1](https://dotnet.microsoft.com/download/dotnet/3.1).~~  
 
-Follow along with either of the methods and install .NET Core SDK 3.1.0. This will be the utility we use to build and run Covenant.  
+~~For more information about downloading via the repositories, check out this link, [https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu)~~  
 
-Once you have the SDK installed, you can clone the Covenant repository from GitHub. Find an example below.  
+~~Follow along with either of the methods and install .NET Core SDK 3.1.0. This will be the utility we use to build and run Covenant.~~  
 
-Command used: `git clone --recurse-submodules https://github.com/cobbr/Covenant`
+## ~~Downloading Covenant itself~~
 
-Since Covenant is written entirely in .NET Core, all dependencies are already handled when building with the SDK.  
+~~Once you have the SDK installed, you can clone the Covenant repository from GitHub. Find an example below.~~  
 
-Now that both the SDK and Covenant are installed, we can start up Covenant for the first time. Covenant will start on localhost port 7443. Find example syntax below.  
+~~Command used: `git clone --recurse-submodules https://github.com/cobbr/Covenant`~~
 
-Command used: `sudo ./dotnet run --project /opt/Covenant/Covenant`
+~~Since Covenant is written entirely in .NET Core, all dependencies are already handled when building with the SDK.~~  
 
-Once you navigate to [127.0.0.1:7443](http://127.0.0.1:7443/) you will be greeted with a user creation screen. Create a user and sign in to Covenant. Find an example of the sign-in page below.
+~~Now that both the SDK and Covenant are installed, we can start up Covenant for the first time. Covenant will start on localhost port 7443. Find example syntax below.~~  
 
-![[Task 24 - Command your Foes and Control your Friends-20240927134255397.webp]]
+~~Command used: `sudo ./dotnet run --project /opt/Covenant/Covenant`~~
 
-If successfully signed in, you should be met with a dashboard like the one shown below.
+## Covenant-kbx
 
-![[Task 24 - Command your Foes and Control your Friends-20240927134346264.webp]]
+Use `covenant-kbx` because .NET Core 3.1 is <u>no longer</u> supported and won't work. More [info](https://www.kali.org/tools/covenant-kbx/).
+
+- Installing `covenant-kbx`.
+
+	`sudo apt install covenant-kbx`
+
+- Running `covenant-kbx`.
+
+	`covenant-kbx start`
+
+
+
+# Your job
+
+- Navigate to covenant-kbx
+
+	Once you navigate to [127.0.0.1:7443](https://127.0.0.1:7443/) you will be greeted with a user creation screen. Find an example of the sign-in page below.
+
+	![[Task 24 - Command your Foes and Control your Friends-20240927134255397.webp]]
+
+- Create a user and sign in to Covenant.
+	Username: Kairos
+	Password: YX6QB7wz5CxhfQs
+
+	If successfully signed in, you should be met with a dashboard like the one shown below.
+	![[Task 24 - Command your Foes and Control your Friends-20240927134346264.webp]]
+
+
+
+**Next step:** [[Task 25 - Bug on the Wire]]
+
+
+

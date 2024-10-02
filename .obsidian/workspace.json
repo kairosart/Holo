@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -48,12 +48,25 @@
             }
           },
           {
-            "id": "056200a6488a596b",
+            "id": "5abee70efbde0908",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+                "file": "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f92d409241e935a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -61,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "916459c5b976f019",
@@ -74,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+                "file": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+                "file": "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md"
+                "file": "COMMAND AND CONTROL/Task 26 - The Blood Oath.md"
               }
             }
           },
@@ -214,17 +227,27 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4cf65ed6bea3d5cf",
+  "active": "5abee70efbde0908",
   "lastOpenFiles": [
+    "Task 26 - The Blood Oath-20241002144715707.webp",
+    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+    "Images/Task 26 - The Blood Oath-20241002143413060.webp",
+    "Images/Task 25 - Bug on the Wire-20241002141843944.webp",
+    "Images/Task 26 - The Blood Oath-20241002143301067.webp",
+    "Images/Task 26 - The Blood Oath-20241002143153983.webp",
+    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "index.md",
+    "Images/Task 24 - Command your Foes and Control your Friends-20241002141201259.webp",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
@@ -235,7 +258,6 @@
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "Images/Punk Rock 101 err Web App 101.md",
     "docs/lib/metadata.json",
     "docs/lib/media/874d8b8e340f75575caa.svg",
@@ -252,14 +274,6 @@
     "docs/Images/Task 24 - Command your Foes and Control your Friends-20240927134255397.webp",
     "docs/Images/Task 23 - Digging a tunnel to nowhere-20240926150205470.webp",
     "docs/Images/Task 23 - Digging a tunnel to nowhere-20240926150119258.webp",
-    "docs/Images/Task 21 - From the Shadows-20240926144242939.webp",
-    "docs/Images/Task 21 - From the Shadows-20240924134929338.webp",
-    "docs/Images/Task 20 - Call me Mario, because I got all the bits-20240920152724566.webp",
-    "docs/Images/Task 20 - Call me Mario, because I got all the bits-20240920152123566.webp",
-    "docs/Images/Task 20 - Call me Mario, because I got all the bits-20240920151524586.webp",
-    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
-    "INTRO/Task 3 - Kill Chain.md",
-    "INTRO/Task 1 - Generation one.md",
-    "Untitled.md"
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md"
   ]
 }
