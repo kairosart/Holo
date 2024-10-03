@@ -48,4 +48,35 @@ Once created, the listener should appear within the Listeners tab. You can now s
 
 ![[Task 25 - Bug on the Wire-20241002141843944.webp]]
 
+
+---
+
+# Your job
+Within Covenant and any C2 there are 4 main stages, they are named differently depending on the C2 but roughly mean the same thing:
+
+- Creating a listener.
+- Generating a stager or launcher.
+- Geploying a grunt.
+- Utilizing the grunt.
+
+> A `Listener` is what listens on your box, the equivalent to multi/handler or `nc -nvlp 9999`.
+
+> A `Stager` is also known as a launcher, this is the malicious code used to execute on the machine and gain that connection
+
+> A `Grunt` is the name for the reverse connection, they are the “beacon” which is then used to run commands and tools on the remote machine.
+
+
+## Create a listener
+
+1. Click on the listener tab on the left hand side.
+2. Use a `http` listener, it listens over HTTP to mimic regular web-traffic in an attempt to avoid detection.
+3. Change the settings to the following:
+	- Name – Whatever name you want, i.e. `Holo HTTP`.
+	- BindAddress – Leave this as all interfaces
+	- BindPort – Leave this as `80`
+	- ConnectPort – This is the connection back from the remote host, you will need to change this to `53` (DNS) to gain a reverse shell on the webserver box.
+	- ConnectAddress – This is the address, for this use the `tun0` address
+	- Click create, and you now have a listener.
+
+
 **Next step: ** [[Task 26 - The Blood Oath]]

@@ -1,8 +1,8 @@
 A large part of operating with Covenant is task usage. Covenant, by default, does not come with a large number of tasks/modules to choose from like other C2 frameworks like Empire and PoshC2. This means that we will need to create our own tasks of tools that we want to use within Covenant. Luckily for us, Covenant is built off .NET and C#, making it easy to convert any C# code into a task.  
 
-For this task, we will be converting SharpEDRChecker into a Covenant task; this will later be used in Task 36.  
+For this task, we will be converting SharpEDRChecker into a Covenant task; this will later be used in *Task 36*.  
 
-Since Covenant v0.5, the way that the Covenant backend intakes and parses tasks has changed. Covenant now utilizes YAML files to define tasks and task data. From the YAML website, "YAML is a human-friendly data serialization standard for all programming languages." This makes it easy for developers and operators to weaponize and integrate tooling into Covenant.  
+Since Covenant v0.5, the way that the Covenant backend intakes and parses tasks has changed. Covenant now utilizes YAML files to define tasks and task data. From the YAML website, *"YAML is a human-friendly data serialization standard for all programming languages."* This makes it easy for developers and operators to weaponize and integrate tooling into Covenant.  
 
 Find an outline below of rules you need to have in mind when building tasks to ensure that your task integrates with the grunt.  
 
@@ -119,8 +119,26 @@ EmbeddedResources: []
 
 You can add this YAML file under `Covenant/Covenant/Data/Tasks/`. If we rebuild and run Covenant, our newly created task should appear within the UI and can be used with any grunts now.  
 
-Now that we have a basic task working, we can attempt to convert SharpEDRChecker to Covenant. This process is not as hard as it seems and is fully outlined below.  
+Now that we have a basic task working, we can attempt to convert `SharpEDRChecker` to Covenant. This process is not as hard as it seems and is fully outlined below.  
 
 First, we will want to place the entire SharpEDRChecker source code repository in `Covenant/Covenant/Data/ReferenceSourceLibraries/`. This will allow Covenants backend to integrate and parse the source code and references of the tool.  
 
 You can also import PowerShell scripts or commands using the PowerShell and PowerShellImport tasks along with creating your own tasks.
+
+---
+
+# Your job
+
+The following steps are if you are using [Covenant-kbk]([[Task 24 - Command your Foes and Control your Friends#Covenant-kbx]]).
+
+1. The `SharpEDRChecker` tool is available on [Github](https://github.com/PwnDexter/SharpEDRChecker.git) within PwnDexters repo. Clone it into your attacking machine.
+	- Run in any directory `git clone https://github.com/PwnDexter/SharpEDRChecker.git`.
+	- On the Covenant web go to _Tasks_ -> _Reference Source Libraries_ and press _+ Create_.
+	- Enter the data as in the picture below:
+		![[Task 27 - We ran out of Halo and YAML references...-20241002171147464.webp]]
+	- The `ReferenceAssemblies` you need are (ticked only, not necessarily in the order below):
+		![[Task 27 - We ran out of Halo and YAML references...-20241002171957934.webp]]
+	
+	**NOTE:** you may have issues when selecting the `ReferenceAssemblies` – even if I selected all 8, when you click the _Edit_ button to update it would not save them all, just keep selecting them and hitting _Edit_ to save until all 8 are selected.
+
+**Next step: ** [[Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens]]

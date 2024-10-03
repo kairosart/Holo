@@ -49,9 +49,17 @@ If you navigate to the grunt to interact with it, you will be given an interacti
 
 # Your job
 
+Now you have a listener, you need some code to execute and connect back to it. This is where a launcher comes in.
+
+You have to start a binary launcher, this allows you to use your own binary to launch the grunt, rather than relying on system tools.
 - Create a binary launcher.
 	- Click on Launcher on the left-side bar.
-	- Select `Binary` and .
+	- Select `Binary` and  check the listener is correct and as your listener is HTTP you will leave the implant as a `GruntHTTP`..
 		![[Task 26 - The Blood Oath-20241002144715707.webp]]
-	- Click on the `Generate` button.
-	- Download the 
+	- The other options are specific for the launcher, things like jitter and delay are used to attempt to avoid AV by being variable in their call backs, and allowing you to “sleep” the c2 beacon. For this you don’t need to change any of those.
+	Click on the `Generate` button.This creates an `.exe` called `GruntHTTP`.
+	- Click download and you now have a malicious C2 payload ready to let fly.
+
+As it’s an .exe, you need to run it on a Windows machine, which you don’t have access too yet. So, save that for later.
+
+**Next step: ** [[Task 27 - We ran out of Halo and YAML references...]]

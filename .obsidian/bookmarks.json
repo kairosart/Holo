@@ -16,6 +16,12 @@
       "ctime": 1726596461706,
       "path": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
       "title": "Reverse Shell"
+    },
+    {
+      "type": "file",
+      "ctime": 1727902644787,
+      "path": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+      "subpath": "#Covenant-kbx"
     }
   ]
 }

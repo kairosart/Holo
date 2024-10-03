@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
+                "file": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+                "file": "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,7 +66,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "916459c5b976f019",
@@ -87,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+                "file": "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "covenant-kbx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 26 - The Blood Oath.md"
+                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md"
               }
             }
           },
@@ -227,17 +227,23 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5abee70efbde0908",
+  "active": "f92d409241e935a5",
   "lastOpenFiles": [
-    "Task 26 - The Blood Oath-20241002144715707.webp",
     "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
     "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
-    "Images/Task 26 - The Blood Oath-20241002143413060.webp",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "Images/Task 26 - The Blood Oath-20241002144715707.webp",
+    "Untitled",
+    "Images/Task 27 - We ran out of Halo and YAML references...-20241002171957934.webp",
+    "Images/Task 27 - We ran out of Halo and YAML references...-20241002171147464.webp",
+    "Covenant-kbk.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
     "Images/Task 25 - Bug on the Wire-20241002141843944.webp",
+    "Untitled.md",
+    "Images/Task 26 - The Blood Oath-20241002143413060.webp",
     "Images/Task 26 - The Blood Oath-20241002143301067.webp",
     "Images/Task 26 - The Blood Oath-20241002143153983.webp",
-    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "index.md",
     "Images/Task 24 - Command your Foes and Control your Friends-20241002141201259.webp",
@@ -257,8 +263,6 @@
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
-    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "Images/Punk Rock 101 err Web App 101.md",
     "docs/lib/metadata.json",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/lib/media",
@@ -269,11 +273,6 @@
     "docs/lib/fonts/94f2f163d4b698242fef.otf",
     "docs/lib/fonts/72505e6a122c6acd5471.woff2",
     "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "docs/Images/Task 24 - Command your Foes and Control your Friends-20240927134346264.webp",
-    "docs/Images/Task 24 - Command your Foes and Control your Friends-20240927134255397.webp",
-    "docs/Images/Task 23 - Digging a tunnel to nowhere-20240926150205470.webp",
-    "docs/Images/Task 23 - Digging a tunnel to nowhere-20240926150119258.webp",
-    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md"
+    "docs/Images/Task 24 - Command your Foes and Control your Friends-20240927134346264.webp"
   ]
 }
