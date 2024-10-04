@@ -73,6 +73,10 @@ The above diagram shows the route:
 
 ## Pivoting with chisel
 
+- SSH tto L-SRV01 with the following credentials:
+	User: `linux_admin`
+	Password: `linuxrulez`
+	ssh linux_admin@10.200.X.33
 
 
 **Next step:** [[Task 24 - Command your Foes and Control your Friends]]

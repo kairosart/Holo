@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-                "mode": "preview",
+                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "916459c5b976f019",
@@ -87,8 +87,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
-                "mode": "source",
+                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "covenant-kbx",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md"
+                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md"
               }
             }
           },
@@ -202,6 +202,23 @@
             "state": {
               "type": "juggl_style",
               "state": {}
+            }
+          },
+          {
+            "id": "c61f3ffdc2c9e797",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ]
@@ -227,17 +244,29 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f92d409241e935a5",
+  "active": "4cf65ed6bea3d5cf",
   "lastOpenFiles": [
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
-    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
     "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241002174047521.webp",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241002173910268.webp",
+    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
     "Images/Task 26 - The Blood Oath-20241002144715707.webp",
     "Untitled",
     "Images/Task 27 - We ran out of Halo and YAML references...-20241002171957934.webp",
     "Images/Task 27 - We ran out of Halo and YAML references...-20241002171147464.webp",
     "Covenant-kbk.md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
     "Images/Task 25 - Bug on the Wire-20241002141843944.webp",
     "Untitled.md",
@@ -247,24 +276,14 @@
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "index.md",
     "Images/Task 24 - Command your Foes and Control your Friends-20241002141201259.webp",
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
-    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "POST EXPLOITATION/Task 21 - From the Shadows.md",
-    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "docs/lib/metadata.json",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/lib/media",
     "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
     "docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
@@ -272,7 +291,6 @@
     "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
     "docs/lib/fonts/94f2f163d4b698242fef.otf",
     "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
-    "docs/Images/Task 24 - Command your Foes and Control your Friends-20240927134346264.webp"
+    "docs/lib/fonts/70cc7ff27245e82ad414.ttf"
   ]
 }
