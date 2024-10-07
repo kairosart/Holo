@@ -6,7 +6,7 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 66.37717121588089,
+        "dimension": 67.80383795309169,
         "children": [
           {
             "id": "53ef366a70793951",
@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-                "mode": "preview",
+                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,12 +74,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "916459c5b976f019",
         "type": "tabs",
-        "dimension": 33.62282878411911,
+        "dimension": 32.19616204690831,
         "children": [
           {
             "id": "2fc6409b65003109",
@@ -88,7 +88,7 @@
               "type": "markdown",
               "state": {
                 "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -141,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md"
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md"
               }
             }
           },
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,20 +244,21 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4cf65ed6bea3d5cf",
+  "active": "f9dfb0bcd72bfdbb",
   "lastOpenFiles": [
-    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+    "Task 21 - From the Shadows-20241007143744991.webp",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
     "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241002174047521.webp",
     "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241002173910268.webp",
@@ -275,14 +276,12 @@
     "Images/Task 26 - The Blood Oath-20241002143153983.webp",
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "index.md",
-    "Images/Task 24 - Command your Foes and Control your Friends-20241002141201259.webp",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
-    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "docs/lib/metadata.json",
     "docs/lib/media",
     "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",

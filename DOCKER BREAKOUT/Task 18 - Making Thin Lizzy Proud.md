@@ -68,6 +68,7 @@ Password: `!123SecureAdminDashboard321!`
 	![[Task 18 - Making Thin Lizzy Proud-20240917143142963.webp]]
 
 
+> [!INFO]
 > It should be noted, that the one liner provided by TryHackMe is actually a much better solution as it doesn’t write anything to the database, and therefore will be less logs and if the outfile is removed at the end of the engagement, any forensics might be slightly more difficult (although the command should still show in the MySQL logs!)
 >  How does that one liner work? Well basically it just skips writing anything to the table, instead it selects the PHP code and directs it straight into a file.
 

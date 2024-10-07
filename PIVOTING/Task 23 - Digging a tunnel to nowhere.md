@@ -13,7 +13,7 @@ In this task, we will be focusing on both Chisel and sshuttle, each offering uni
 
 ## Chisel
 
-The first tool that we will be looking at is Chisel. From the Chisel GitHub, "Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single executable, including both client and server. Written in Go (Golang). Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network."  
+The first tool that we will be looking at is Chisel. From the Chisel GitHub, *"Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single executable, including both client and server. Written in Go (Golang). Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network."*  
 
 From the Chisel GitHub, below is an overview of chisel architecture.
 
@@ -73,10 +73,20 @@ The above diagram shows the route:
 
 ## Pivoting with chisel
 
-- SSH tto L-SRV01 with the following credentials:
+- SSH to L-SRV01 with the following credentials:
 	User: `linux_admin`
 	Password: `linuxrulez`
-	ssh linux_admin@10.200.X.33
+	`ssh linux_admin@10.200.X.33`
+or
+- [[SSH to the victim machine with a key.]]
+-
+- On the attacking machine: `./chisel server -p 8000 --reverse`
+
+- On the target machine: `./chisel client <SERVER IP>:8000 R:socks`
+
+## Pivoting with sshuttle
+
+
 
 
 **Next step:** [[Task 24 - Command your Foes and Control your Friends]]

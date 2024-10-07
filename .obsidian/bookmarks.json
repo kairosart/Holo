@@ -22,6 +22,12 @@
       "ctime": 1727902644787,
       "path": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
       "subpath": "#Covenant-kbx"
+    },
+    {
+      "type": "file",
+      "ctime": 1728326431607,
+      "path": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+      "title": "SSH to L-SEV01"
     }
   ]
 }

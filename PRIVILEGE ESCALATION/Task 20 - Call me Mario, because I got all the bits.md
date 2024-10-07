@@ -86,6 +86,8 @@ If successful, you should now have the same permission levels as the binary you 
 - Then changes the default root directory of the docker container to the `/mnt` directory. 
 - That means you don’t have to go to `/mnt` to visit the entire filesystem, the root directory is already set to that.
 
+> [!INFO]
+You are root onto  L-SRV01.
 
 ---
 
