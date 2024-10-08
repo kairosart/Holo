@@ -103,9 +103,9 @@ You are root onto  L-SRV01.
 
 ## Answer the questions
 
+ > [!question]
 > What is the full path of the binary with an SUID bit set on L-SRV01?
 > `/usr/bin/docker`
-
 > What is the full first line of the exploit for the SUID bit?
 > `sudo install -m =xs $(which docker) .`
 

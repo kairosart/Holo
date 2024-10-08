@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "file": "Images/Punk Rock 101 err Web App 101.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "916459c5b976f019",
@@ -113,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Answer the questions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,8 +140,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md"
+                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md"
               }
             }
           },
@@ -210,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,44 +243,45 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f9dfb0bcd72bfdbb",
+  "active": "f92d409241e935a5",
   "lastOpenFiles": [
-    "POST EXPLOITATION/Task 21 - From the Shadows.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
-    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
-    "Task 21 - From the Shadows-20241007143744991.webp",
-    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "Images/Punk Rock 101 err Web App 101.md",
     "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241002174047521.webp",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241002173910268.webp",
-    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
-    "Images/Task 26 - The Blood Oath-20241002144715707.webp",
-    "Untitled",
-    "Images/Task 27 - We ran out of Halo and YAML references...-20241002171957934.webp",
-    "Images/Task 27 - We ran out of Halo and YAML references...-20241002171147464.webp",
-    "Covenant-kbk.md",
-    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
-    "Images/Task 25 - Bug on the Wire-20241002141843944.webp",
-    "Untitled.md",
-    "Images/Task 26 - The Blood Oath-20241002143413060.webp",
-    "Images/Task 26 - The Blood Oath-20241002143301067.webp",
-    "Images/Task 26 - The Blood Oath-20241002143153983.webp",
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
-    "index.md",
-    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
-    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
-    "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
+    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
+    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145730773.webp",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145637358.webp",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145428545.webp",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145212176.webp",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145001749.webp",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008144618597.webp",
+    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008144250606.webp",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "Task 23 - Digging a tunnel to nowhere-20241008141821503.webp",
+    "Task 23 - Digging a tunnel to nowhere-20241008140800233.webp",
+    "Task 23 - Digging a tunnel to nowhere-20241008134113133.webp",
+    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+    "Untitled",
+    "Covenant-kbk.md",
+    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
+    "Untitled.md",
+    "index.md",
+    "NET BASICS/Task 7 - Rage Against the Compiler.md",
+    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "docs/lib/metadata.json",
     "docs/lib/media",
     "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",

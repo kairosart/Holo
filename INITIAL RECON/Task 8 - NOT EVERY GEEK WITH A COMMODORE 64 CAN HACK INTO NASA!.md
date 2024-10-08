@@ -67,18 +67,15 @@ So there are 3 ports open : SSH on 22, Http on 80 and mysql on 33060. The detail
 ---
 ## Answer the questions below
 
+> [!question]
 > What is the last octet of the IP address of the public-facing web server?
 > `33`
-
 > How many ports are open on the web server?
 > `3`
-
 > What CME is running on port 80 of the web server?
 > `WordPress`
-
 > What version of the CME is running on port 80 of the web server?
 > `5.5.3`
-
 > What is the HTTP title of the web server?
 > `holo.live`
 

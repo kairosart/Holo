@@ -36,12 +36,13 @@ Add those subdomains to /etc/hosts.
 `dev.holo.live admin.holo.live www.holo.live` 
 
 
+---
+
 ## Answer the questions below
 
+> [!question]
 > What domains loads images on the first web page?
 > `www.holo.live`
-
-
 > What are the two other domains present on the web server? Format: Alphabetical Order
 > `admin.holo.live, dev.holo.live`
 

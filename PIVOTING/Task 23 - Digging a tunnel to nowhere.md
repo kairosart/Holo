@@ -46,7 +46,7 @@ Example usage: `proxychains curl http://<IP>`
 
 
 ## sshuttle
-The second tool we will be looking at is sshuttle. Sshuttle is unique in its approaches to pivoting because all of its techniques are done remotely from the attacking machine and do not require the configuration of proxychains. However, a few of the disadvantages of sshuttle are that it will only work if there is an ssh server running on the machine, and it will not work on Windows hosts. You can download sshuttle from GitHub, [https://github.com/sshuttle/sshuttle](https://github.com/sshuttle/sshuttle)  
+The second tool we will be looking at is sshuttle. Sshuttle is unique in its approaches to pivoting because all of its techniques are done remotely from the attacking machine and do not require the configuration of proxychains. However, a few of the disadvantages of sshuttle are that <u>it will only work if there is an ssh server running on the machine</u>, and it <u>will not work on Windows hosts</u>. You can download sshuttle from GitHub, [https://github.com/sshuttle/sshuttle](https://github.com/sshuttle/sshuttle)  
 
 Using sshuttle is relatively easy and only requires one command. For sshuttle to work, you only need to specify one parameter, -r . With this parameter, you will specify the user and target like you would for a standard ssh connection. You will also need to specify the CIDR range of the network; this does not require a parameter. Find an example of syntax below.  
 
@@ -79,7 +79,7 @@ The above diagram shows the route:
 	`ssh linux_admin@10.200.X.33`
 or
 - [[SSH to the victim machine with a key.]]
--
+
 - On the attacking machine: `./chisel server -p 8000 --reverse`
 
 - On the target machine: `./chisel client <SERVER IP>:8000 R:socks`
@@ -87,6 +87,38 @@ or
 ## Pivoting with sshuttle
 
 
+> [!Note]
+The command requires a few bits of information, these include: 
+The username and address of your pivot target.
+A keyfile if you are using a key pair (which you are).
+The subnet you want to gain access too and you need to remove the IP you are connecting too, otherwise everything gets very confused. This translates to:
+`sshuttle -r user@address --ssh-cmd "ssh -i KEYFILE" SUBNET -x <IP>`
+
+
+- Run on the attacking machine the following command:
+	`sshuttle -r root@admin.holo.live --ssh-cmd "ssh -i /home/kali/.ssh/id_rsa" 10.200.X.0/24 -x 10.200.X.33`
+	![[Task 23 - Digging a tunnel to nowhere-20241008134113133.webp]]
+
+- On another terminal connect via SSH.
+	`ssh root@admin.holo.live -i /home/kali/.ssh/id_rsa` 
+
+- Run nmap against the target 10.200.X.31.
+	root@ip-10-200-95-33:~# `nmap 10.200.95.31 -Pn`
+	
+	![[Task 23 - Digging a tunnel to nowhere-20241008140800233.webp]]
+
+- Look at the internal network.
+	root@ip-10-200-95-33:~# `nmap 10.200.95.0/24 -Pn`
+	
+	![[Task 23 - Digging a tunnel to nowhere-20241008141821503.webp]]
+	
+You've found the following 5 hosts available:
+
+	- 10.200.95.30
+    - 10.200.95.31
+    - 10.200.95.32
+    - 10.200.95.33
+    - 10.200.95.35
 
 
 **Next step:** [[Task 24 - Command your Foes and Control your Friends]]
