@@ -9,51 +9,12 @@
         "dimension": 67.80383795309169,
         "children": [
           {
-            "id": "53ef366a70793951",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Images/Punk Rock 101 err Web App 101.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cf65ed6bea3d5cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9dfb0bcd72bfdbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5abee70efbde0908",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+                "file": "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -63,18 +24,32 @@
           {
             "id": "f92d409241e935a5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+                "file": "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "2d96ab594a56ec15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AV EVASION/Task 32 - AMSIception.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "916459c5b976f019",
@@ -87,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Answer the questions",
+                "query": "task 4",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +115,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -160,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+                "file": "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md"
+                "file": "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md"
               }
             }
           },
@@ -201,23 +177,6 @@
             "state": {
               "type": "juggl_style",
               "state": {}
-            }
-          },
-          {
-            "id": "c61f3ffdc2c9e797",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
             }
           }
         ]
@@ -243,8 +202,31 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f92d409241e935a5",
+  "active": "5abee70efbde0908",
   "lastOpenFiles": [
+    "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+    "AV EVASION/Task 32 - AMSIception.md",
+    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
+    "AV EVASION/Untitled.md",
+    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
+    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142813928.webp",
+    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142736433.webp",
+    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142627311.webp",
+    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142517399.webp",
+    "Task 33 - JU57 0BFU$C47E 1T-20241009141950734.webp",
+    "Task 33 - JU57 0BFU$C47E 1T-20241009141844548.webp",
+    "AV EVASION/Task 30 - Basically a joke itself.....md",
+    "Task 32 - AMSIception-20241009140551144.webp",
+    "Task 32 - AMSIception-20241009140446749.webp",
+    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "Task 30 - Basically a joke itself....-20241009134720931.webp",
+    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
+    "AV EVASION",
+    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
+    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "Images/Punk Rock 101 err Web App 101.md",
     "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
     "INTRO/Task 2 - Patching into the Matrix.md",
@@ -255,33 +237,10 @@
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "POST EXPLOITATION/Task 21 - From the Shadows.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145730773.webp",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145637358.webp",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145428545.webp",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145212176.webp",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008145001749.webp",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008144618597.webp",
-    "Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens-20241008144250606.webp",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "Task 23 - Digging a tunnel to nowhere-20241008141821503.webp",
-    "Task 23 - Digging a tunnel to nowhere-20241008140800233.webp",
-    "Task 23 - Digging a tunnel to nowhere-20241008134113133.webp",
-    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
-    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
-    "Untitled",
-    "Covenant-kbk.md",
-    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
-    "Untitled.md",
-    "index.md",
-    "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
     "docs/lib/metadata.json",
     "docs/lib/media",
     "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
