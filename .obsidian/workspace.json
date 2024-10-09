@@ -12,9 +12,12 @@
             "id": "5abee70efbde0908",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp"
+                "file": "AV EVASION/Task 32 - AMSIception.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -39,14 +42,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 32 - AMSIception.md",
+                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1747ba30b39cc464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "916459c5b976f019",
@@ -85,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "task 4",
+                "query": "sshuttle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
+                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp"
+                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md"
               }
             }
           },
@@ -199,11 +216,21 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6c994e66ece44a7b",
+  "active": "2d96ab594a56ec15",
   "lastOpenFiles": [
-    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
-    "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+    "AV EVASION/Task 30 - Basically a joke itself.....md",
+    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
     "AV EVASION/Task 32 - AMSIception.md",
+    "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
+    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
+    "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
     "AV EVASION/Untitled.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142813928.webp",
@@ -212,16 +239,11 @@
     "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142517399.webp",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241009141950734.webp",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241009141844548.webp",
-    "AV EVASION/Task 30 - Basically a joke itself.....md",
     "Images/Task 32 - AMSIception-20241009140551144.webp",
     "Images/Task 32 - AMSIception-20241009140446749.webp",
-    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "Images/Task 30 - Basically a joke itself....-20241009134720931.webp",
-    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "AV EVASION",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
-    "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "Images/Punk Rock 101 err Web App 101.md",
@@ -233,11 +255,6 @@
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
-    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
-    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "docs/lib/metadata.json",
     "docs/lib/media",
     "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",

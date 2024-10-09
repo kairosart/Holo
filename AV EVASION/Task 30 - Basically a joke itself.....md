@@ -56,4 +56,3 @@ In the next task, we will look at how we can utilize PowerShell and C# to bypa
 
 **Next step:** [[Task 31 - THEY WONT SEE ME IF I YELL!]]
 
-**Next step:** [[Task 32 - AMSIception]]

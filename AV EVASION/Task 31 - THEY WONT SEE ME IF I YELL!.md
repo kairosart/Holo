@@ -10,7 +10,11 @@ There are a large number of bypasses for AMSI available, a majority written in 
 
 For more information about the variety of bypasses available, check out this GitHub repo, [https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell)  
 
-We will be looking at the `Matt Graeber reflection method` as well as patching `amsi.dll`.
+
+> [!info]
+> We will be looking at the `Matt Graeber reflection method` as well as patching `amsi.dll`.
+
+
 
 The first bypass we will be looking at utilizes native PowerShell reflection to set the response value of AMSI to `$null`. Find the PowerShell code written by Matt Graeber below.
 

@@ -65,10 +65,8 @@ New: `[dorkstork]::copy($buf, 0, $BufferAddress, 6);`
 
 Now we have a newly created type accelerator that will break the signature attached to it.  
 
-For more information about creating type accelerators within PowerShell, check out this blog, [https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell)[](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell)
+For more information about creating type accelerators within PowerShell, check out this blog, [https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell)
 
-[  
-](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell)
 
 To entirely obfuscate our code and ensure our bypass works, we can combine the two techniques shown. In addition, you can rerun AMSITrigger as needed to help identify broken signatures and other signatures not yet broken.  
 
@@ -81,6 +79,14 @@ For more information about manual obfuscation and AMSI obfuscation, check out 
 - [](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)[https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)
 - [](https://www.youtube.com/watch?v=lP2KF7_Kwxk)[https://www.youtube.com/watch?v=lP2KF7_Kwxk](https://www.youtube.com/watch?v=lP2KF7_Kwxk)
 - [](https://www.youtube.com/watch?v=F_BvtXzH4a4)[https://www.youtube.com/watch?v=F_BvtXzH4a4](https://www.youtube.com/watch?v=F_BvtXzH4a4)
+
+
+---
+
+# Your job
+
+
+
 
 **Next step: ** [[Task 33 - JU57 0BFU$C47E 1T]]
 
