@@ -12,12 +12,9 @@
             "id": "5abee70efbde0908",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp"
               }
             }
           },
@@ -136,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
+                "file": "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md"
+                "file": "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp"
               }
             }
           },
@@ -202,29 +199,29 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5abee70efbde0908",
+  "active": "6c994e66ece44a7b",
   "lastOpenFiles": [
+    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
     "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
     "AV EVASION/Task 32 - AMSIception.md",
-    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
     "AV EVASION/Untitled.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142813928.webp",
-    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142736433.webp",
-    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142627311.webp",
-    "Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142517399.webp",
-    "Task 33 - JU57 0BFU$C47E 1T-20241009141950734.webp",
-    "Task 33 - JU57 0BFU$C47E 1T-20241009141844548.webp",
+    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142813928.webp",
+    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142736433.webp",
+    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142627311.webp",
+    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142517399.webp",
+    "Images/Task 33 - JU57 0BFU$C47E 1T-20241009141950734.webp",
+    "Images/Task 33 - JU57 0BFU$C47E 1T-20241009141844548.webp",
     "AV EVASION/Task 30 - Basically a joke itself.....md",
-    "Task 32 - AMSIception-20241009140551144.webp",
-    "Task 32 - AMSIception-20241009140446749.webp",
+    "Images/Task 32 - AMSIception-20241009140551144.webp",
+    "Images/Task 32 - AMSIception-20241009140446749.webp",
     "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
     "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-    "Task 30 - Basically a joke itself....-20241009134720931.webp",
+    "Images/Task 30 - Basically a joke itself....-20241009134720931.webp",
     "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "AV EVASION",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
-    "Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
+    "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "Images/Punk Rock 101 err Web App 101.md",
