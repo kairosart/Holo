@@ -85,7 +85,9 @@ For more information about manual obfuscation and AMSI obfuscation, check out 
 
 # Your job
 
+You need to obfuscate the [[Task 31 - THEY WONT SEE ME IF I YELL!]] section scripts to make them bypass detection and actually unhook AMSI so you can run malicious stuff!
 
+The task has good information about what we are trying to achieve, and basically trying to remove anything that will flag AMSI. To do this, we can use [AMSITrigger](https://github.com/RythmStick/AMSITrigger), so download that onto your dev machine (or Windows 10 machine).
 
 
 **Next step: ** [[Task 33 - JU57 0BFU$C47E 1T]]

@@ -1,3 +1,5 @@
+## Bypassing AMSI
+
 Now that we understand the basics of AMSI and how its instrumented, we can begin bypassing AMSI using PowerShell and C#.  
 
 There are a large number of bypasses for AMSI available, a majority written in PowerShell and C#. Find a list of common bypasses below.  
@@ -16,9 +18,11 @@ For more information about the variety of bypasses available, check out this Git
 
 
 
-The first bypass we will be looking at utilizes native PowerShell reflection to set the response value of AMSI to `$null`. Find the PowerShell code written by Matt Graeber below.
+The first bypass we will be looking at utilizes native PowerShell reflection to set the response value of AMSI to `$null`. Find the PowerShell code written by *Matt Graeber* below.
 
 `[Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)`
+
+### AMSI bypass – **amsi.dll** patching
 
 The second method we will be looking at is patching amsi.dll written in PowerShell. This bypass is modified by BC-Security inspired by Tal Liberman, [https://github.com/BC-SECURITY/Empire/blob/master/lib/common/bypasses.py](https://github.com/BC-SECURITY/Empire/blob/master/lib/common/bypasses.py). RastaMouse also has a similar bypass written in C# that uses the same technique, [https://github.com/rasta-mouse/AmsiScanBufferBypass/blob/main/AmsiBypass.cs](https://github.com/rasta-mouse/AmsiScanBufferBypass/blob/main/AmsiBypass.cs).The bypass will identify DLL locations and modify memory permissions to return undetected AMSI response values.
 
@@ -49,6 +53,8 @@ $buf = [Byte[]]([UInt32]0xB8,[UInt32]0x57, [UInt32]0x00, [Uint32]0x07, [Uint32]0
 ```
 
 This may seem like a lot of fancy and chopped-up code if you are unfamiliar with Windows architecture and PowerShell, but we can break it up and identify what each section of code does.  
+
+### Code breakdown
 
 The first section of code lines 3 - 10 will use C# to call-in functions from Kernel32 to identify where amsi.dll has been loaded.
 
@@ -102,3 +108,13 @@ For more information about AMSI bypasses, check out the following resources.
 - [https://www.youtube.com/watch?v=lP2KF7_Kwxk](https://www.youtube.com/watch?v=lP2KF7_Kwxk)
 - [](https://www.mdsec.co.uk/2018/06/exploring-powershell-amsi-and-logging-evasion/)[https://www.mdsec.co.uk/2018/06/exploring-powershell-amsi-and-logging-evasion/](https://www.mdsec.co.uk/2018/06/exploring-powershell-amsi-and-logging-evasion/)
 
+
+---
+# Your job
+This section is all about the AMSI evasion and unhooking. Use [amsi.fail](https://amsi.fail/) and try those within the code to unhook amsi. I guess these will start or are already caught by Defender but maybe a small modification can get around that as they use genuine windows commands.
+
+Use a Windows 10 VM for this, otherwise you won’t know if any of the obfuscation works as intended. Don't try Windows 11 it won't work.
+
+
+
+**Next step:** [[Task 32 - AMSIception]]
