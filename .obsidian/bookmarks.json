@@ -21,13 +21,20 @@
       "type": "file",
       "ctime": 1727902644787,
       "path": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
-      "subpath": "#Covenant-kbx"
+      "subpath": "#Covenant-kbx",
+      "title": "COVENANT"
     },
     {
       "type": "file",
       "ctime": 1728326431607,
       "path": "POST EXPLOITATION/Task 21 - From the Shadows.md",
       "title": "SSH to L-SEV01"
+    },
+    {
+      "type": "file",
+      "ctime": 1728761415811,
+      "path": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+      "title": "Root onto  L-SRV01"
     }
   ]
 }

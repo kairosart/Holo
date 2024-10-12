@@ -5,6 +5,20 @@ Now that we can upload a file, we notice that our shells are killed or fail at u
 
 The `Anti-Malware Scan Interface (AMSI)` is a PowerShell security feature that will allow any applications or services to integrate into antimalware products. AMSI will scan payloads and scripts before execution inside of the runtime. From Microsoft, "The Windows Antimalware Scan Interface (AMSI) is a versatile interface standard that allows your applications and services to integrate with any antimalware product that's present on a machine. AMSI provides enhanced malware protection for your end-users and their data, applications, and workloads."  
 
+## How AMSI Works
+
+When a user executes a script or initiates PowerShell, the AMSI.dll is injected into the process memory space. Prior to execution the following two API’s are used by the antivirus to scan the buffer and strings for signs of malware.
+
+1. AmsiScanBuffer()
+2. AmsiScanString()
+
+If a known signature is identified execution doesn’t initiate and a message appears that the script has been blocked by the antivirus software. The following diagram illustrates the process of AMSI scanning.
+
+![[Task 30 - Basically a joke itself....-20241011154659503.webp]]
+Source: https://pentestlaboratories.com/2021/05/17/amsi-bypass-methods/
+
+## Anti-Malware Scan Interface (AMSI)
+
 For more information about AMSI, check out the Windows docs, [https://docs.microsoft.com/en-us/windows/win32/amsi/](https://docs.microsoft.com/en-us/windows/win32/amsi/)  
 
 Find an example of how data flows inside of Windows security features below.

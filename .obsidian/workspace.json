@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 32 - AMSIception.md",
+                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,15 +55,51 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "AV EVASION/Task 30 - Basically a joke itself.....md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "abd5c90b52b03439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NET BASICS/Task 7 - Rage Against the Compiler.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6558a2cd8300064f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc343429c054951f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Diagram.svg"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "916459c5b976f019",
@@ -102,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sshuttle",
+                "query": "task 7",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
+                "file": "Images/Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md"
+                "file": "Images/Diagram.svg"
               }
             }
           },
@@ -216,45 +252,45 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2d96ab594a56ec15",
+  "active": "cc343429c054951f",
   "lastOpenFiles": [
-    "AV EVASION/Task 32 - AMSIception.md",
-    "index.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
-    "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+    "Images/Task 29 - Thanks, I'll let myself in.-20241012152649071.webp",
+    "Images/Diagram.svg",
     "AV EVASION/Task 30 - Basically a joke itself.....md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
-    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
     "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
+    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
+    "POST EXPLOITATION/Task 21 - From the Shadows.md",
+    "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
+    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+    "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
+    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "NET BASICS/Task 7 - Rage Against the Compiler.md",
+    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
+    "AV EVASION/Task 32 - AMSIception.md",
     "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
+    "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+    "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062351572.webp",
+    "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062242516.webp",
+    "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062131178.webp",
+    "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062100154.webp",
+    "Images/Task 30 - Basically a joke itself....-20241011154659503.webp",
+    "index.md",
     "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
     "AV EVASION/Untitled.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142813928.webp",
     "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142736433.webp",
     "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142627311.webp",
-    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142517399.webp",
-    "Images/Task 33 - JU57 0BFU$C47E 1T-20241009141950734.webp",
-    "Images/Task 33 - JU57 0BFU$C47E 1T-20241009141844548.webp",
-    "Images/Task 32 - AMSIception-20241009140551144.webp",
-    "Images/Task 32 - AMSIception-20241009140446749.webp",
-    "Images/Task 30 - Basically a joke itself....-20241009134720931.webp",
     "AV EVASION",
-    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
-    "POST EXPLOITATION/Task 21 - From the Shadows.md",
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
-    "Images/Punk Rock 101 err Web App 101.md",
-    "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
-    "INTRO/Task 2 - Patching into the Matrix.md",
-    "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md",
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
-    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
-    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
-    "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "docs/lib/metadata.json",
     "docs/lib/media",
     "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",

