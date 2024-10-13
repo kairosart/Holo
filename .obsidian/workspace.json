@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
+                "file": "AV EVASION/Task 30 - Basically a joke itself.....md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 30 - Basically a joke itself.....md",
+                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       },
       {
         "id": "916459c5b976f019",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/Diagram.svg",
+                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/Diagram.svg"
+                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md"
               }
             }
           },
@@ -252,12 +252,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "cc343429c054951f",
+  "active": "1747ba30b39cc464",
   "lastOpenFiles": [
-    "Images/Task 29 - Thanks, I'll let myself in.-20241012152649071.webp",
-    "Images/Diagram.svg",
+    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
+    "AV EVASION/Task 32 - AMSIception.md",
+    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
     "AV EVASION/Task 30 - Basically a joke itself.....md",
     "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
+    "Images/Diagram.svg",
+    "Images/Task 29 - Thanks, I'll let myself in.-20241012152649071.webp",
     "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
     "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
@@ -274,9 +277,6 @@
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
-    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
-    "AV EVASION/Task 32 - AMSIception.md",
-    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
     "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062351572.webp",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062242516.webp",
@@ -289,7 +289,6 @@
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142813928.webp",
     "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142736433.webp",
-    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142627311.webp",
     "AV EVASION",
     "docs/lib/metadata.json",
     "docs/lib/media",

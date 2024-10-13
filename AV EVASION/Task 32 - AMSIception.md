@@ -69,6 +69,27 @@ Now we have a newly created type accelerator that will break the signature attac
 
 For more information about creating type accelerators within PowerShell, check out this blog, [https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell](https://community.idera.com/database-tools/powershell/powertips/b/tips/posts/adding-new-type-accelerators-in-powershell)
 
+To entirely obfuscate our code and ensure our bypass works, we can combine the two techniques shown. In addition, you can rerun AMSITrigger as needed to help identify broken signatures and other signatures not yet broken.  
+
+At this point, you should now have a working AMSI bypass. You can now move on to obfuscating and modifying our grunt and launcher itself to evade AV.  
+
+For more information about manual obfuscation and AMSI obfuscation, check out the following resources.
+
+- [](https://amsi.fail/)[https://amsi.fail/](https://amsi.fail/)
+- [](https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/)[https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/](https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/)
+- [](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)[https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)
+- [](https://www.youtube.com/watch?v=lP2KF7_Kwxk)[https://www.youtube.com/watch?v=lP2KF7_Kwxk](https://www.youtube.com/watch?v=lP2KF7_Kwxk)
+- [](https://www.youtube.com/watch?v=F_BvtXzH4a4)[https://www.youtube.com/watch?v=F_BvtXzH4a4](https://www.youtube.com/watch?v=F_BvtXzH4a4)
+
+
+---
+
+# Your job
+
+You need to obfuscate the [[Task 31 - THEY WONT SEE ME IF I YELL!]] section scripts to make them bypass detection and actually unhook AMSI so you can run malicious stuff!
+
+The task has good information about what we are trying to achieve, and basically trying to remove anything that will flag AMSI. To do this, we can use [AMSITrigger](https://github.com/RythmStick/AMSITrigger/releases), so download that onto your dev machine (or Windows 10 machine).
+
 ### Obfuscated **amsi_bypass.ps1**
 
 ```csharp
@@ -98,26 +119,12 @@ $buf = [Byte[]]([UInt32]0xB8,[UInt32]0x57, [UInt32]0x00, [Uint32]0x07, [Uint32]0
 ```
 
 
-To entirely obfuscate our code and ensure our bypass works, we can combine the two techniques shown. In addition, you can rerun AMSITrigger as needed to help identify broken signatures and other signatures not yet broken.  
+If you run the following code on Powershell on the Windows 10 machine:
+PS C:\Users\vboxuser\Documents\AMSI> `.\AmsiTrigger_x86.exe -i .\amsi_bypass.ps1 -f 3`
 
-At this point, you should now have a working AMSI bypass. You can now move on to obfuscating and modifying our grunt and launcher itself to evade AV.  
+you'll get the following output:
 
-For more information about manual obfuscation and AMSI obfuscation, check out the following resources.
-
-- [](https://amsi.fail/)[https://amsi.fail/](https://amsi.fail/)
-- [](https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/)[https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/](https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/)
-- [](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)[https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)
-- [](https://www.youtube.com/watch?v=lP2KF7_Kwxk)[https://www.youtube.com/watch?v=lP2KF7_Kwxk](https://www.youtube.com/watch?v=lP2KF7_Kwxk)
-- [](https://www.youtube.com/watch?v=F_BvtXzH4a4)[https://www.youtube.com/watch?v=F_BvtXzH4a4](https://www.youtube.com/watch?v=F_BvtXzH4a4)
-
-
----
-
-# Your job
-
-You need to obfuscate the [[Task 31 - THEY WONT SEE ME IF I YELL!]] section scripts to make them bypass detection and actually unhook AMSI so you can run malicious stuff!
-
-The task has good information about what we are trying to achieve, and basically trying to remove anything that will flag AMSI. To do this, we can use [AMSITrigger](https://github.com/RythmStick/AMSITrigger), so download that onto your dev machine (or Windows 10 machine).
+**AMSI_RESULT_NOT_DETECTED = 1**: This means no threats were detected by the scan, so the content is considered safe to execute.
 
 
 **Next step: ** [[Task 33 - JU57 0BFU$C47E 1T]]

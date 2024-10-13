@@ -113,7 +113,55 @@ For more information about AMSI bypasses, check out the following resources.
 # Your job
 This section is all about the AMSI evasion and unhooking. Use [amsi.fail](https://amsi.fail/) and try those within the code to unhook amsi. I guess these will start or are already caught by Defender but maybe a small modification can get around that as they use genuine windows commands.
 
-Use a Windows 10 VM for this, otherwise you won’t know if any of the obfuscation works as intended. Don't try Windows 11 it won't work.
+
+> [!warning]
+> Use a Windows 10 VM for this, otherwise you won’t know if any of the obfuscation works as intended. Don't try Windows 11 it won't work.
+
+To perform an AMSI (Antimalware Scan Interface) bypass on **Windows 10**, you need to be careful since it involves bypassing security measures, which can trigger antivirus or security tools. Here's how you can set up and test the bypass in a **controlled** and **ethical** environment, like a virtual machine (VM):
+
+## Step-by-Step Guide:
+
+1. **Prepare a VM Environment:**
+    
+    - Use software like **VirtualBox** or **VMware** to create a virtual machine.
+    - Install **Windows 10** on the VM to create an isolated environment.
+    - Install **PowerShell** and ensure it's updated to the latest version.
+    
+1. **Disable Execution Policy (For Testing Purposes Only):**
+    
+    - Run **PowerShell as Administrator**.
+    - Check the current execution policy:
+        
+        `Get-ExecutionPolicy`
+        
+    - Temporarily set the policy to allow script execution:
+        
+        `Set-ExecutionPolicy Unrestricted -Scope Process`
+        
+    - Note that you should reset the policy after the test.
+    
+1. **Load AMSI Bypass Script:**
+    
+    - Create or download an AMSI bypass script (e.g., `amsi_bypass.ps1`). You can find such scripts on GitHub or similar repositories, but be cautious about the source.
+    - If running such a script throws an error related to AMSI detection, it indicates that AMSI is blocking your script from execution.
+    
+1. **Implement an AMSI Bypass (Example Code):**
+    
+    - Here’s an example of an AMSI bypass technique in PowerShell:
+        `[Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)`
+        
+    - This line disables AMSI by setting its internal check to `true`, tricking it into thinking AMSI initialization failed
+    
+1. **Test the Script:**
+    
+    - After implementing the bypass, try running a script that AMSI would typically block (e.g., a script with encoded commands).
+    - If the script runs successfully without AMSI interference, the bypass has been applied.
+    
+1. **Reset Execution Policy:**
+    
+    - After testing, reset the PowerShell execution policy to its original state:
+        
+        `Set-ExecutionPolicy Restricted -Scope Process`
 
 
 

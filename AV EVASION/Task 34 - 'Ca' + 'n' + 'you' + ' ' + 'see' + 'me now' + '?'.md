@@ -2,7 +2,13 @@ Up to this point, we should have a working PoC payload and grunt. However, in 
 
 As new EDR solutions and prevention methods are released, we as red teamers need to change and evolve our TTPs to work around the ever-growing blue team. Often, techniques themselves don't change, but scripts and solutions like [https://github.com/IonizeCbr/AmsiPatchDetection](https://github.com/IonizeCbr/AmsiPatchDetection) and indicators can make it harder to get our payloads and tools past even when bypassed and obfuscated, or we have other restrictions in place we need to workaround. In this case, we can use code analysis and manual code review to break signatures. A few tools can help us along the way for code analysis, including ThreatCheck, [https://github.com/rasta-mouse/ThreatCheck](https://github.com/rasta-mouse/ThreatCheck), and DefenderCheck, [https://github.com/matterpreter/DefenderCheck](https://github.com/matterpreter/DefenderCheck). Both of these tools will ingest a given file and output the found bytes attached to signatures.  
 
+## ThreatCheck
+
 We again recommend using a development virtual machine to test and edit code.
+
+### Downloading ThreatCheck compiled
+
+https://github.com/Laransec/ThreatCheck-Compiled
 
 As covered in [[Task 7 - Rage Against the Compiler]], you will need to build Threat Check using a Visual Studio solution file. It is important to note that Threat Check uses multiple NuGet packages; ensure your development machine has internet access to retrieve these packages. The build process will produce an application file, a DLL file, and an XML file. You will need all three files in the same directory for ThreatCheck to work. 
 

