@@ -14,11 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 30 - Basically a joke itself.....md",
-                "mode": "source",
+                "file": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Task 23 - Digging a tunnel to nowhere"
             }
           },
           {
@@ -33,7 +35,9 @@
                 "backlinks": false,
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Task 4 - Flag Submission Panel"
             }
           },
           {
@@ -42,11 +46,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
+                "file": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Task 20 - Call me Mario, because I got all the bits"
             }
           },
           {
@@ -55,11 +61,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+                "file": "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Task 36 -  That's not a cat that's a dawg"
             }
           },
           {
@@ -72,7 +80,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Task 7 - Rage Against the Compiler"
             }
           },
           {
@@ -85,7 +95,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Task 26 - The Blood Oath"
             }
           },
           {
@@ -95,11 +107,12 @@
               "type": "image",
               "state": {
                 "file": "Images/Diagram.svg"
-              }
+              },
+              "icon": "lucide-image",
+              "title": "Diagram"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "916459c5b976f019",
@@ -112,11 +125,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+                "file": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Task 24 - Command your Foes and Control your Friends"
+            }
+          },
+          {
+            "id": "b7cde08c8b18b0c6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
         ]
@@ -138,13 +165,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "task 7",
+                "query": "covenant",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -152,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -162,7 +193,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ],
@@ -170,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "68fd4a1bf3817dcd",
@@ -186,10 +220,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Task 19 - Going%20out%20with%20a%20SHEBANG%21"
             }
           },
           {
@@ -200,7 +236,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -209,8 +247,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md"
-              }
+                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Task 19 - Going%20out%20with%20a%20SHEBANG%21"
             }
           },
           {
@@ -218,7 +258,9 @@
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -226,7 +268,29 @@
             "type": "leaf",
             "state": {
               "type": "juggl_style",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "bcfbb7e63beab9a7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "e43a154cd4176e88",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
             }
           }
         ]
@@ -245,50 +309,49 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "juggl:Juggl global graph": false,
       "webpage-html-export:Export Vault to HTML": false,
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1747ba30b39cc464",
+  "active": "5abee70efbde0908",
   "lastOpenFiles": [
-    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
-    "AV EVASION/Task 32 - AMSIception.md",
-    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
-    "AV EVASION/Task 30 - Basically a joke itself.....md",
-    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
-    "Images/Diagram.svg",
-    "Images/Task 29 - Thanks, I'll let myself in.-20241012152649071.webp",
-    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
-    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
-    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "POST EXPLOITATION/Taask 22 - Crack all the Things.md",
+    "POST EXPLOITATION/Task 22 - Crack all the Things.md",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-    "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
+    "Images/Task 35 - Wrapping the burrito-20241014144328981.webp",
+    "Untitled",
+    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "SSH to the victim machine with a key..md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
+    "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
+    "INTRO/Task 3 - Kill Chain.md",
+    "COMMAND AND CONTROL/Task 26 - The Blood Oath.md",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
+    "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
+    "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md",
+    "AV EVASION/Task 35 - Wrapping the burrito.md",
+    "Images/Task 36 -  That's not a cat that's a dawg-20241014150512569.webp",
+    "Images/Task 36 -  That's not a cat that's a dawg-20241014150423796.webp",
+    "Images/Task 36 -  That's not a cat that's a dawg-20241014150208220.webp",
     "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md",
+    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
+    "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md",
+    "Images/Diagram.svg",
+    "Images/Task 29 - Thanks, I'll let myself in.-20241012152649071.webp",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062351572.webp",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062242516.webp",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062131178.webp",
     "Images/Task 33 - JU57 0BFU$C47E 1T-20241012062100154.webp",
-    "Images/Task 30 - Basically a joke itself....-20241011154659503.webp",
-    "index.md",
-    "Images/Task 29 - Thanks, I'll let myself in.-20241009133054767.webp",
-    "AV EVASION/Untitled.md",
-    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142813928.webp",
-    "Images/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'-20241009142736433.webp",
     "AV EVASION",
     "docs/lib/metadata.json",
     "docs/lib/media",
@@ -297,7 +360,6 @@
     "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
     "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
     "docs/lib/fonts/94f2f163d4b698242fef.otf",
-    "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf"
+    "docs/lib/fonts/72505e6a122c6acd5471.woff2"
   ]
 }

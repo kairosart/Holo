@@ -78,7 +78,7 @@ The above diagram shows the route:
 	Password: `linuxrulez`
 	`ssh linux_admin@10.200.X.33`
 or
-- [[SSH to the victim machine with a key.]]
+- [[Task 21 - From the Shadows#SSH to the victim machine with a key]]
 
 - On the attacking machine: `./chisel server -p 8000 --reverse`
 

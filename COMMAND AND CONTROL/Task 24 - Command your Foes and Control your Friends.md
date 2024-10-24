@@ -32,14 +32,35 @@ The Covenant installation is relatively straightforward, with a few quirks and a
 
 ## Covenant-kbx
 
-Use `covenant-kbx` because .NET Core 3.1 is <u>no longer</u> supported and won't work. More [info](https://www.kali.org/tools/covenant-kbx/).
 
-- Installing `covenant-kbx`.
+> [!info]
+> Use `covenant-kbx` because .NET Core 3.1 is <u>no longer</u> supported and won't work. More [info](https://www.kali.org/tools/covenant-kbx/).
 
+
+### Install Dotnet Core
+
+The easiest way to use Covenant is by installing dotnet core. You can download dotnet core for your platform from [here](https://dotnet.microsoft.com/download/dotnet-core/3.1).
+
+- Download [Linux X64 binary](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-3.1.426-linux-x64-binaries).
+- Install SDK.
+	When your download completes, open a terminal and run the following commands to extract the SDK and make the commands available at the terminal.
+	
+	`mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.426-linux-x64.tar.gz -C $HOME/dotnet`
+	
+	`export DOTNET_ROOT=$HOME/dotnet`
+	
+	`export PATH=$PATH:$HOME/dotnet`
+
+
+> [!warning]
+> Be sure to install the dotnet core version **3.1 SDK**! 
+
+
+### Install covenant-kbx with kaboxer
+- Run.
 	`sudo apt install covenant-kbx`
 
 - Running `covenant-kbx`.
-
 	`covenant-kbx start`
 
 

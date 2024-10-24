@@ -55,3 +55,13 @@ If successful, you will now have a clean tool or payload that evades Defender.
 
 # Your job
 
+
+> [!failure]
+> Don't bother yourself trying the above method, according to someone else's writeups it doens't work. 
+
+**Next step:** [[Task 35 - Wrapping the burrito]]
+
+
+
+
+
