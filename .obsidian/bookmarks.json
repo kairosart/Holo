@@ -13,19 +13,6 @@
     },
     {
       "type": "file",
-      "ctime": 1726596461706,
-      "path": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-      "title": "Reverse Shell"
-    },
-    {
-      "type": "file",
-      "ctime": 1727902644787,
-      "path": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md",
-      "subpath": "#Covenant-kbx",
-      "title": "COVENANT"
-    },
-    {
-      "type": "file",
       "ctime": 1728326431607,
       "path": "POST EXPLOITATION/Task 21 - From the Shadows.md",
       "title": "SSH to L-SEV01"
@@ -35,6 +22,47 @@
       "ctime": 1728761415811,
       "path": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
       "title": "Root onto  L-SRV01"
+    },
+    {
+      "type": "group",
+      "ctime": 1730024029696,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1726596461706,
+          "path": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+          "title": "1. Reverse Shell"
+        },
+        {
+          "type": "file",
+          "ctime": 1730023963844,
+          "path": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+          "subpath": "#Accessing 192.168.100.1 machine",
+          "title": "2. Accessing to 192.168.100.1"
+        },
+        {
+          "type": "file",
+          "ctime": 1730024382701,
+          "path": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+          "subpath": "#Your job",
+          "title": "3. Shell onto  L-SRV01."
+        },
+        {
+          "type": "file",
+          "ctime": 1730058847637,
+          "path": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
+          "subpath": "#Your job",
+          "title": "4. Privilege Escalation L-SRV01"
+        },
+        {
+          "type": "file",
+          "ctime": 1730059428342,
+          "path": "POST EXPLOITATION/Task 21 - From the Shadows.md",
+          "subpath": "#Adding an SSH key",
+          "title": "5. Adding a SSH Key"
+        }
+      ],
+      "title": "ACCESSING DIRECTLY"
     }
   ]
 }

