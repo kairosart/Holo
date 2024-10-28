@@ -70,6 +70,9 @@ Time to try and exploit this web-app. Remember way back in [[Task 29 - Thanks, I
 
 Instead follow the [[Marmeus' walkthrough]].
 
+
+## Uploading a web-shell to 10.200.X.31
+
 It's used the following web-shell which didn’t get caught.
 
 ```

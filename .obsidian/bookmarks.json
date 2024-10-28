@@ -60,6 +60,20 @@
           "path": "POST EXPLOITATION/Task 21 - From the Shadows.md",
           "subpath": "#Adding an SSH key",
           "title": "5. Adding a SSH Key"
+        },
+        {
+          "type": "file",
+          "ctime": 1730142579862,
+          "path": "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+          "subpath": "#Pivoting with sshuttle",
+          "title": "6. Pivoting with sshuttle"
+        },
+        {
+          "type": "file",
+          "ctime": 1730143520086,
+          "path": "AV EVASION/Task 35 - Wrapping the burrito.md",
+          "subpath": "#Uploading a web-shell to 10.200.X.31",
+          "title": "7. Uploading a web-sell to 10.200.X.31"
         }
       ],
       "title": "ACCESSING DIRECTLY"
