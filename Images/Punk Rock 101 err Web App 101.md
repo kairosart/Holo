@@ -33,7 +33,7 @@ There are 3 results: dev, admin, www.
 
 Add those subdomains to /etc/hosts.
 
-`dev.holo.live admin.holo.live www.holo.live` 
+`10.200.X.33     dev.holo.live admin.holo.live www.holo.live` 
 
 
 ---
