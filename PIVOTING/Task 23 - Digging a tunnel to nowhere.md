@@ -103,7 +103,7 @@ The subnet you want to gain access too and you need to remove the IP you are con
 	`ssh root@admin.holo.live -i /home/kali/.ssh/id_rsa` 
 
 - Run nmap against the target 10.200.X.31.
-	root@ip-10-200-95-33:~# `nmap 10.200.95.31 -Pn`
+	root@ip-10-200-95-33:~# `nmap 10.200.X.31 -Pn`
 	
 	![[Task 23 - Digging a tunnel to nowhere-20241008140800233.webp]]
 

