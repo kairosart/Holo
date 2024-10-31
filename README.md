@@ -33,3 +33,17 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCymd1SBNCCtwnLevPQupq7Zy/YxDIDdIHfhc
 
 `sshuttle -r root@admin.holo.live --ssh-cmd "ssh -i /home/kali/.ssh/id_rsa" 10.200.110.0/24 -x 10.200.110.33`
 
+
+[[Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens#Your job|7. Accesing S-SRV01 Web]]
+
+
+1. Create a php file with the above code on your attacking machine `webshell.php`.
+2. Navigate to http://10.200.X.31/img_upload.php and upload the file.
+3. Navigate to http://10.200.X.31/images/webshell.php.
+
+
+
+```bash
+type C:\Users\Administrator\Desktop\root.txt
+```
+

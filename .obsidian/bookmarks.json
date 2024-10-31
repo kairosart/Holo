@@ -80,21 +80,14 @@
           "ctime": 1730143520086,
           "path": "AV EVASION/Task 35 - Wrapping the burrito.md",
           "subpath": "#Uploading a web-shell to 10.200.X.31",
-          "title": "7. Uploading a web-sell to 10.200.X.31"
+          "title": "8. Uploading a web-sell to 10.200.X.31"
         },
         {
           "type": "file",
           "ctime": 1730316204362,
           "path": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
           "subpath": "#Your job",
-          "title": "8. Accesing S-SRV01 Web"
-        },
-        {
-          "type": "file",
-          "ctime": 1730316790088,
-          "path": "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
-          "subpath": "#hoaxshell",
-          "title": "10. Hoaxshell Windows Reverse Shell"
+          "title": "7. Accesing S-SRV01 Web"
         }
       ],
       "title": "ACCESSING DIRECTLY"
