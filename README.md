@@ -47,3 +47,6 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCymd1SBNCCtwnLevPQupq7Zy/YxDIDdIHfhc
 type C:\Users\Administrator\Desktop\root.txt
 ```
 
+[[Task 36 -  That's not a cat that's a dawg#Running hoaxshell|9. Hoaxhell]]
+
+

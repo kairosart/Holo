@@ -170,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -324,15 +324,18 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2fc6409b65003109",
+  "active": "96d455eaf726ea04",
   "lastOpenFiles": [
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "AV EVASION/Task 35 - Wrapping the burrito.md",
     "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
     "README.md",
+    "Task 36 -  That's not a cat that's a dawg-20241101160504921.webp",
+    "Task 36 -  That's not a cat that's a dawg-20241101160241987.webp",
     "POST EXPLOITATION/Task 36.1 - Post Exploitation on .31 machine.md",
-    "AV EVASION/Task 35 - Wrapping the burrito.md",
     "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "Task 36 -  That's not a cat that's a dawg-20241031144001057.webp",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
@@ -346,7 +349,6 @@
     "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "Task 36 -  That's not a cat that's a dawg-20241030154114745.webp",
     "Task 36 -  That's not a cat that's a dawg-20241030153143094.webp",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "POST EXPLOITATION/Task 22 - Crack all the Things.md",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
@@ -354,15 +356,12 @@
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "Images/Punk Rock 101 err Web App 101.md",
-    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "Task 36 -  That's not a cat that's a dawg-20241026061603130.webp",
     "Task 36 -  That's not a cat that's a dawg-20241026060923165.webp",
     "Images/Task 35 - Wrapping the burrito-20241014144328981.webp",
     "Untitled",
     "Images/Task 36 -  That's not a cat that's a dawg-20241014150512569.webp",
     "Images/Task 36 -  That's not a cat that's a dawg-20241014150423796.webp",
-    "Images/Task 36 -  That's not a cat that's a dawg-20241014150208220.webp",
-    "Images/Diagram.svg",
     "AV EVASION",
     "docs/lib/metadata.json",
     "docs/lib/media",

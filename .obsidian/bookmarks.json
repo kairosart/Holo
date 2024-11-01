@@ -77,6 +77,13 @@
         },
         {
           "type": "file",
+          "ctime": 1730316204362,
+          "path": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+          "subpath": "#Your job",
+          "title": "7. Accesing S-SRV01 Web"
+        },
+        {
+          "type": "file",
           "ctime": 1730143520086,
           "path": "AV EVASION/Task 35 - Wrapping the burrito.md",
           "subpath": "#Uploading a web-shell to 10.200.X.31",
@@ -84,10 +91,10 @@
         },
         {
           "type": "file",
-          "ctime": 1730316204362,
-          "path": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-          "subpath": "#Your job",
-          "title": "7. Accesing S-SRV01 Web"
+          "ctime": 1730491809527,
+          "path": "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
+          "subpath": "#Running hoaxshell",
+          "title": "9. Hoaxhell"
         }
       ],
       "title": "ACCESSING DIRECTLY"
