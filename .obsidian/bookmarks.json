@@ -29,23 +29,23 @@
       "items": [
         {
           "type": "file",
-          "ctime": 1730318728231,
-          "path": "AV EVASION/Task 35 - Wrapping the burrito.md",
-          "subpath": "#Uploading a web-shell to 10.200.X.31",
-          "title": "9. Uploading a webshell to S-SRV01"
-        },
-        {
-          "type": "file",
           "ctime": 1726596461706,
           "path": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
           "title": "1. Reverse Shell"
         },
         {
           "type": "file",
+          "ctime": 1730746774399,
+          "path": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
+          "subpath": "#Inject our PHP code into a table and save the table into a file on the remote system",
+          "title": "2. Inject PHP code into a table"
+        },
+        {
+          "type": "file",
           "ctime": 1730023963844,
           "path": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
           "subpath": "#Accessing 192.168.100.1 machine",
-          "title": "2. Accessing to 192.168.100.1"
+          "title": "2.1 Accessing to 192.168.100.1"
         },
         {
           "type": "file",

