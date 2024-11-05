@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
+                "file": "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task 36 -  That's not a cat that's a dawg"
+              "title": "Task 19 - Going%20out%20with%20a%20SHEBANG%21"
             }
           },
           {
@@ -46,13 +46,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+                "file": "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task - 15 Docker? I hardly even know her!"
+              "title": "Task 37 - Good Intentions, Courtesy of Microsoft - Part II"
             }
           },
           {
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "HOLO{50f9614809096ffe2d246e9dd21a76e1}",
+                "query": "flag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -312,17 +312,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8c6106633316943f",
+  "active": "96d455eaf726ea04",
   "lastOpenFiles": [
-    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
-    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
+    "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
+    "Images/Task 36 -  That's not a cat that's a dawg-20241101160241987.webp",
+    "Images/Task 37 - Good Intentions, Courtesy of Microsoft - Part II-20241105150502280.webp",
+    "Task 37 - Good Intentions, Courtesy of Microsoft - Part II-20241105150336226.webp",
+    "Task 37 - Good Intentions, Courtesy of Microsoft - Part II-20241105145259719.webp",
+    "Task 37 - Good Intentions, Courtesy of Microsoft - Part II-20241105145140842.webp",
     "README.md",
-    "Task 36 -  That's not a cat that's a dawg-20241104150300244.webp",
+    "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
+    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
+    "SITUATIONAL AWARANESS/Task - 15 Docker? I hardly even know her!.md",
+    "INTRO/Task 3 - Kill Chain.md",
+    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
+    "Images/Task 36 -  That's not a cat that's a dawg-20241104150300244.webp",
     "Task 36 -  That's not a cat that's a dawg-20241104145859783.webp",
     "AV EVASION/Task 35 - Wrapping the burrito.md",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
@@ -330,8 +337,7 @@
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-    "Task 36 -  That's not a cat that's a dawg-20241101160504921.webp",
-    "Task 36 -  That's not a cat that's a dawg-20241101160241987.webp",
+    "Images/Task 36 -  That's not a cat that's a dawg-20241101160504921.webp",
     "POST EXPLOITATION/Task 36.1 - Post Exploitation on .31 machine.md",
     "Task 36 -  That's not a cat that's a dawg-20241031144001057.webp",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
@@ -343,12 +349,6 @@
     "AV EVASION/Task 30 - Basically a joke itself.....md",
     "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "Task 36 -  That's not a cat that's a dawg-20241030154114745.webp",
-    "Task 36 -  That's not a cat that's a dawg-20241030153143094.webp",
-    "POST EXPLOITATION/Task 22 - Crack all the Things.md",
-    "Images/Punk Rock 101 err Web App 101.md",
-    "Task 36 -  That's not a cat that's a dawg-20241026061603130.webp",
-    "Task 36 -  That's not a cat that's a dawg-20241026060923165.webp",
-    "Images/Task 35 - Wrapping the burrito-20241014144328981.webp",
     "Untitled",
     "AV EVASION",
     "docs/lib/metadata.json",
