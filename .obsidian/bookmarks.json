@@ -95,6 +95,27 @@
           "path": "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
           "subpath": "#Running hoaxshell",
           "title": "9. Hoaxhell and Mimikatz"
+        },
+        {
+          "type": "file",
+          "ctime": 1730921763201,
+          "path": "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
+          "subpath": "#Connect to PC-FILESRV01 with smbclient",
+          "title": "10. Connect to PC-FILESERV01"
+        },
+        {
+          "type": "file",
+          "ctime": 1730921885414,
+          "path": "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
+          "subpath": "#applocker-bypas-checker.ps1",
+          "title": "11. applocker-bypas-checker.ps1"
+        },
+        {
+          "type": "file",
+          "ctime": 1730923039619,
+          "path": "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
+          "subpath": "#AV enumeration with Seatbelt",
+          "title": "12. AV Enumeration"
         }
       ],
       "title": "ACCESSING DIRECTLY"
