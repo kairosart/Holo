@@ -116,6 +116,12 @@
           "path": "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
           "subpath": "#AV enumeration with Seatbelt",
           "title": "12. AV Enumeration"
+        },
+        {
+          "type": "file",
+          "ctime": 1731786471945,
+          "path": "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
+          "title": "13. Seatbelt check"
         }
       ],
       "title": "ACCESSING DIRECTLY"
