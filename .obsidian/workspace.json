@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task 41 - ALL THE POWER!.md",
+                "file": "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task 41 - ALL THE POWER!"
+              "title": "Task 43 - WERE TAKING OVER THIS DLL!"
             }
           },
           {
@@ -61,13 +61,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
+                "file": "SITUATIONAL AWARANESS/Task 42 - Import-Module PowerUpGreySkull.ps1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task 40 - SEATBELT CHECK!"
+              "title": "Task 42 - Import-Module PowerUpGreySkull.ps1"
             }
           },
           {
@@ -95,13 +95,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
+                "file": "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task 38 - Watson left her locker open"
+              "title": "Task 39 - So it's just fancy malware?"
             }
           }
         ]
@@ -204,10 +204,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task 41 - ALL THE POWER!.md"
+                "file": "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Task 41 - ALL THE POWER!"
+              "title": "Outline of Task 43 - WERE TAKING OVER THIS DLL!"
             }
           },
           {
@@ -333,43 +333,43 @@
   },
   "active": "5abee70efbde0908",
   "lastOpenFiles": [
-    "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
+    "SITUATIONAL AWARANESS/Task 42 - Import-Module PowerUpGreySkull.ps1.md",
     "SITUATIONAL AWARANESS/Task 41 - ALL THE POWER!.md",
+    "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
+    "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
+    "Task 42 - Import-Module PowerUpGreySkull.ps1-20241118144538579.webp",
+    "Task 42 - Import-Module PowerUpGreySkull.ps1-20241118144230415.webp",
+    "Task 42 - Import-Module PowerUpGreySkull.ps1-20241118144028591.webp",
+    "2Sh2OlE.png",
+    "Task 42 - Import-Module PowerUpGreySkull.ps1-20241118143652508.webp",
+    "Task 42 - Import-Module PowerUpGreySkull.ps1-20241118143445389.webp",
+    "Task 42 - Import-Module PowerUpGreySkull.ps1-20241118143350896.webp",
+    "Task 41 - ALL THE POWER!-20241118142946890.webp",
+    "Task 41 - ALL THE POWER!-20241118142736335.webp",
+    "Task 41 - ALL THE POWER!-20241118142510655.webp",
+    "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
+    "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
+    "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
+    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "SITUATIONAL AWARANESS/Task 15 -  Docker? I hardly even know her!.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
-    "Task 40 - SEATBELT CHECK!-20241116142600939.webp",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-    "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
-    "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
     "README.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "Untitled.md",
-    "Images/Task 38 - Watson left her locker open-20241106133217650.webp",
-    "Images/Task 39 - So it's just fancy malware?-20241107145601152.webp",
-    "Images/Task 39 - So it's just fancy malware?-20241107144851798.webp",
     "NET BASICS/Task 7 - Rage Against the Compiler.md",
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md",
-    "Images/Task 39 - So it's just fancy malware?-20241106144717404.webp",
-    "Images/Task 39 - So it's just fancy malware?-20241106144415353.webp",
-    "Images/Task 39 - So it's just fancy malware?-20241106144345480.webp",
     "SITUATIONAL AWARENESS",
-    "Images/Task 38 - Watson left her locker open-20241106142004554.webp",
-    "Images/Task 38 - Watson left her locker open-20241106133733419.webp",
-    "Images/Task 38 - Watson left her locker open-20241106133518566.webp",
     "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
     "INTRO/Task 3 - Kill Chain.md",
     "AV EVASION/Task 35 - Wrapping the burrito.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "POST EXPLOITATION/Task 21 - From the Shadows.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md",
     "POST EXPLOITATION/Task 36.1 - Post Exploitation on .31 machine.md",
-    "AV EVASION/Task 32 - AMSIception.md",
-    "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md",
     "AV EVASION",
     "docs/lib/metadata.json",
     "docs/lib/media",
