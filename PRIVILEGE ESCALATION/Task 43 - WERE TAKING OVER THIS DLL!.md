@@ -27,6 +27,7 @@ If there is not any research on the application available, say a proprietary app
 # Your job
 
 ## Privilege Escalation
+
 Use a new vulnerability called `Print Nightmare` which was released in June 2021.
 CVE-2021-34527, or PrintNightmare, is a vulnerability in the Windows Print Spooler that allows for a low priv user to escalate to administrator on a local box or on a remote server. More [info](https://0xdf.gitlab.io/2021/07/08/playing-with-printnightmare.html).
 
