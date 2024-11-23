@@ -129,6 +129,34 @@
           "path": "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
           "subpath": "#Your job",
           "title": "14. Privelege Escalation to PC-FILESRV01"
+        },
+        {
+          "type": "file",
+          "ctime": 1732391514962,
+          "path": "PERSISTENCE/Task 44 - WERE TAKING OVER THIS DLL! Part II.md",
+          "subpath": "#Your job",
+          "title": "15. Identifying DLL for hijacking"
+        },
+        {
+          "type": "file",
+          "ctime": 1732391712282,
+          "path": "NTLM RELAY/Task 46 - Now you see me, now you don't.md",
+          "subpath": "#Your job",
+          "title": "16. Abuse NTLM relaying"
+        },
+        {
+          "type": "file",
+          "ctime": 1732391764981,
+          "path": "NTLM RELAY/Task 47 - Why not just turn it off?.md",
+          "subpath": "#Your job",
+          "title": "17. Add a SOCKS connection"
+        },
+        {
+          "type": "file",
+          "ctime": 1732391882794,
+          "path": "NTLM RELAY/Task 48 - Ready your weapons.md",
+          "subpath": "#Your job",
+          "title": "18. Gain access to the domain"
         }
       ],
       "title": "ACCESSING DIRECTLY"

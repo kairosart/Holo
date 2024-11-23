@@ -71,7 +71,7 @@ CVE-2021-34527, or PrintNightmare, is a vulnerability in the Windows Print Spool
 
 ## Flag after rooting PC-FILESRV01
 
-- Go into the Administrators desktop and get the root flag.
+- Go into the Administrators desktop and get the root's flag.
     
     HOLO{ee7e68a69829e56e1d5b4a73e7ffa5f0}
     

@@ -14,13 +14,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NTLM RELAY/Task 47 - Why not just turn it off?.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task 47 - Why not just turn it off?"
+              "title": "index"
+            }
+          },
+          {
+            "id": "96f33a28026dee14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conclusion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conclusion"
             }
           },
           {
@@ -74,15 +89,12 @@
             "id": "96d455eaf726ea04",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "NTLM RELAY/Task 48 - Ready your weapons.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Images/Task 46 - Now you see me, now you don't-20241121143522528.webp"
               },
-              "icon": "lucide-file",
-              "title": "Task 48 - Ready your weapons"
+              "icon": "lucide-image",
+              "title": "Task 46 - Now you see me, now you don't-20241121143522528"
             }
           },
           {
@@ -97,8 +109,7 @@
               "title": "Diagram"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "916459c5b976f019",
@@ -111,13 +122,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
+                "file": "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task 43 - WERE TAKING OVER THIS DLL!"
+              "title": "Task 37 - Good Intentions, Courtesy of Microsoft - Part II"
             }
           }
         ]
@@ -139,7 +150,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dll hack",
+                "query": "Flag after",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +183,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -219,10 +231,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NTLM RELAY/Task 48 - Ready your weapons.md"
+                "file": "index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Task 48 - Ready your weapons"
+              "title": "Outline of index"
             }
           },
           {
@@ -346,45 +358,46 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "96d455eaf726ea04",
+  "active": "5abee70efbde0908",
   "lastOpenFiles": [
-    "NTLM RELAY/Task 46 - Now you see me, now you don't.md",
+    "NTLM RELAY/Task 48 - Ready your weapons.md",
     "NTLM RELAY/Task 47 - Why not just turn it off?.md",
-    "Task 47 - Why not just turn it off?-20241122150405855.webp",
-    "Task 47 - Why not just turn it off?-20241122150133824.webp",
-    "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
-    "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
-    "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "NTLM RELAY/Task 46 - Now you see me, now you don't.md",
     "NTLM RELAY/Task 45 - Never trust the LanMan.md",
     "PERSISTENCE/Task 44 - WERE TAKING OVER THIS DLL! Part II.md",
-    "Task 47 - Why not just turn it off?-20241122144645114.webp",
-    "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
-    "NTLM RELAY/Task 48 - Ready your weapons.md",
-    "SITUATIONAL AWARANESS/Task 42 - Import-Module PowerUpGreySkull.ps1.md",
+    "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
+    "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
+    "AV EVASION/Task 35 - Wrapping the burrito.md",
+    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
-    "Task 46 - Now you see me, now you don't-20241121145030701.webp",
-    "Task 46 - Now you see me, now you don't-20241121144700066.webp",
-    "Task 46 - Now you see me, now you don't-20241121143522528.webp",
+    "SITUATIONAL AWARANESS/Task 15 -  Docker? I hardly even know her!.md",
+    "README.md",
+    "Conclusion.md",
+    "Images/Task 46 - Now you see me, now you don't-20241121143522528.webp",
+    "index.md",
+    "Images/Task 48 - Ready your weapons-20241123142537654.webp",
+    "Images/Task 47 - Why not just turn it off?-20241122150405855.webp",
+    "Images/Task 47 - Why not just turn it off?-20241122150133824.webp",
+    "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
+    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
+    "Images/Task 47 - Why not just turn it off?-20241122144645114.webp",
+    "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
+    "SITUATIONAL AWARANESS/Task 42 - Import-Module PowerUpGreySkull.ps1.md",
+    "Images/Task 46 - Now you see me, now you don't-20241121145030701.webp",
+    "Images/Task 46 - Now you see me, now you don't-20241121144700066.webp",
     "NTLM RELAY",
     "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121134539981.webp",
     "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121135040489.webp",
     "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121134947576.webp",
-    "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121134852312.webp",
     "PERSISTENCE",
-    "index.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "INTRO/Task 3 - Kill Chain.md",
     "SITUATIONAL AWARANESS/Task 41 - ALL THE POWER!.md",
     "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
-    "SITUATIONAL AWARANESS/Task 15 -  Docker? I hardly even know her!.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "POST EXPLOITATION/Task 16 - Living off the LANd.md",
-    "README.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "Untitled.md",
     "SITUATIONAL AWARENESS",
     "AV EVASION",
     "docs/lib/metadata.json",

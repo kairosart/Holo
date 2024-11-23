@@ -4,6 +4,7 @@ If a server sends out SMB connections, you can use abuse NTLM relaying to gain
 To begin relaying hashes, we need first to understand how hashes would generally be abused. We will demonstrate two tools that are usually used: Responder, [https://github.com/lgandx/Responder](https://github.com/lgandx/Responder) and NTLMRelayX, [https://github.com/SecureAuthCorp/impacket/blob/master/examples/ntlmrelayx.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/ntlmrelayx.py)  
 
 ## Responder
+
 The first tool we will be looking at is Responder. From the Responder GitHub, *"Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication."* We can use Responder in our situation to poison LLMNR, Netbios, and DNS and then capture the response from the server.  
 
 To begin poisoning requests, we will need to turn off SMB in the Responder configuration as NTLMRelayX will be handling SMB. Find an example command used below.  

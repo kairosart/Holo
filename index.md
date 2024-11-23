@@ -66,3 +66,5 @@ Holo is a TryHackMe room that focuses on Active Directory and Web Application e
 ## **Conclusion**
 
 The Holo TryHackMe room presents a comprehensive challenge, requiring a combination of web application and Active Directory exploitation skills. By following the enumeration and exploitation steps outlined above, you can successfully compromise the Domain Controller and achieve RCE.
+
+
