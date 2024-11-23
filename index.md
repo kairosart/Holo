@@ -68,3 +68,27 @@ Holo is a TryHackMe room that focuses on Active Directory and Web Application e
 The Holo TryHackMe room presents a comprehensive challenge, requiring a combination of web application and Active Directory exploitation skills. By following the enumeration and exploitation steps outlined above, you can successfully compromise the Domain Controller and achieve RCE.
 
 
+---
+## MAIN STEPS
+
+[[Task 14 - Meterpreter session 1 closed. Reason RUH ROH|1. Reverse Shell]]
+[[Task 18 - Making Thin Lizzy Proud#Inject our PHP code into a table and save the table into a file on the remote system|2. Inject PHP code into a table]]
+[[Task 18 - Making Thin Lizzy Proud#Accessing 192.168.100.1 machine|2.1 Accessing to 192.168.100.1]]
+[[Task 19 - Going%20out%20with%20a%20SHEBANG%21#Your job|3. Shell onto  L-SRV01.]]
+[[Task 20 - Call me Mario, because I got all the bits#Your job|4. Privilege Escalation L-SRV01]]
+[[Task 21 - From the Shadows#Adding an SSH key|5. Adding a SSH Key]]
+[[Task 23 - Digging a tunnel to nowhere#Pivoting with sshuttle|6. Pivoting with sshuttle]]
+[[Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens#Your job|7. Accesing S-SRV01 Web]]
+[[Task 35 - Wrapping the burrito#Uploading a web-shell to 10.200.X.31|8. Uploading a web-sell to 10.200.X.31]]
+[[Task 36 -  That's not a cat that's a dawg#Running hoaxshell|9. Hoaxhell and Mimikatz]]
+[[Task 37 - Good Intentions, Courtesy of Microsoft - Part II#Connect to PC-FILESRV01 with smbclient|10. Connect to PC-FILESERV01]]
+[[Task 38 - Watson left her locker open#applocker-bypas-checker.ps1|11. Applocker bypas]]
+[[Task 39 - So it's just fancy malware?#AV enumeration with Seatbelt|12. AV Enumeration]]
+[[Task 40 - SEATBELT CHECK!|13. Seatbelt check]]
+[[Task 43 - WERE TAKING OVER THIS DLL!#Your job|14. Privelege Escalation to PC-FILESRV01]]
+[[Task 44 - WERE TAKING OVER THIS DLL! Part II#Your job|15. Identifying DLL for hijacking]]
+[[Task 46 - Now you see me, now you don't#Your job|16. Abuse NTLM relaying]]
+[[Task 47 - Why not just turn it off?#Your job|17. Add a SOCKS connection]]
+[[Task 48 - Ready your weapons#Your job|18. Gain access to the domain]]
+
+
