@@ -43,7 +43,7 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "/media/sf_obsidian/Holo/docs",
+  "exportPath": "/home/emi/Documents/obsidian/Holo/docs",
   "filesToExport": [
     [
       "COMMAND AND CONTROL",

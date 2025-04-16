@@ -1,8 +1,8 @@
 {
   "vaultName": "Reset",
-  "lastExport": 1732393059013,
+  "lastExport": 1744827845061,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon theme-dark",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
@@ -69,7 +69,7 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/6155340132a851f6089e.svg"
   ],
   "mainDependencies": [
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -85,215 +85,215 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/6155340132a851f6089e.svg"
   ],
   "fileInfo": {
     "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4585,
       "exportedPath": "COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.html",
       "dependencies": []
     },
     "COMPETITION/Task 5 - Pwning & Prizes.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 2053,
       "exportedPath": "COMPETITION/Task 5 - Pwning & Prizes.html",
       "dependencies": []
     },
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4347,
       "exportedPath": "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.html",
       "dependencies": []
     },
     "DOCKER BREAKOUT/Task 19 - Going out with a SHEBANG!.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3932,
       "exportedPath": "DOCKER BREAKOUT/Task 19 - Going out with a SHEBANG!.html",
       "dependencies": []
     },
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 832,
       "exportedPath": "FLAG SUBMISSION/Task 4 - Flag Submission Panel.html",
       "dependencies": []
     },
     "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3675,
       "exportedPath": "INITIAL RECON/Task 8 - NOT EVERY GEEK WITH A COMMODORE 64 CAN HACK INTO NASA!.html",
       "dependencies": []
     },
     "INTRO/Task 1 - Generation one.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 1441,
       "exportedPath": "INTRO/Task 1 - Generation one.html",
       "dependencies": []
     },
     "INTRO/Task 2 - Patching into the Matrix.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 1775,
       "exportedPath": "INTRO/Task 2 - Patching into the Matrix.html",
       "dependencies": []
     },
     "INTRO/Task 3 - Kill Chain.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 2859,
       "exportedPath": "INTRO/Task 3 - Kill Chain.html",
       "dependencies": []
     },
     "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 2946,
       "exportedPath": "NET BASICS/Task 6 - CLR - Commonly Lacking Radiation.html",
       "dependencies": []
     },
     "NET BASICS/Task 7 - Rage Against the Compiler.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3254,
       "exportedPath": "NET BASICS/Task 7 - Rage Against the Compiler.html",
       "dependencies": []
     },
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6729,
       "exportedPath": "PIVOTING/Task 23 - Digging a tunnel to nowhere.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 2960,
       "exportedPath": "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 16 - Living off the LANd.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6609,
       "exportedPath": "POST EXPLOITATION/Task 16 - Living off the LANd.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4698,
       "exportedPath": "POST EXPLOITATION/Task 17 - Dorkus Storkus - Protector of the Database.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 21 - From the Shadows.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3769,
       "exportedPath": "POST EXPLOITATION/Task 21 - From the Shadows.html",
       "dependencies": []
     },
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 7202,
       "exportedPath": "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.html",
       "dependencies": []
     },
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6280,
       "exportedPath": "WEB APP EXPLOITATION/Task 10 - What the Fuzz/Task 10 - What the Fuzz.html",
       "dependencies": []
     },
     "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 677,
       "exportedPath": "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.html",
       "dependencies": []
     },
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4276,
       "exportedPath": "WEB APP EXPLOITATION/Task 12 -  What is this/Task 12 -  What is this.html",
       "dependencies": []
     },
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3581,
       "exportedPath": "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 5286,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -305,171 +305,177 @@
       "dependencies": []
     },
     "Images/Diagram.svg.xml": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 2734,
       "exportedPath": "Images/Diagram.svg.xml",
       "dependencies": []
     },
     "AV EVASION/Task 30 - Basically a joke itself.....md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 5190,
       "exportedPath": "AV EVASION/Task 30 - Basically a joke itself.....html",
       "dependencies": []
     },
     "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 10481,
       "exportedPath": "AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.html",
       "dependencies": []
     },
     "AV EVASION/Task 32 - AMSIception.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 9949,
       "exportedPath": "AV EVASION/Task 32 - AMSIception.html",
       "dependencies": []
     },
     "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6941,
       "exportedPath": "AV EVASION/Task 33 - JU57 0BFU$C47E 1T.html",
       "dependencies": []
     },
     "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '?'.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4780,
       "exportedPath": "AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '.html",
       "dependencies": []
     },
     "AV EVASION/Task 35 - Wrapping the burrito.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4550,
       "exportedPath": "AV EVASION/Task 35 - Wrapping the burrito.html",
       "dependencies": []
     },
     "COMMAND AND CONTROL/Task 25 - Bug on the Wire.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 5389,
       "exportedPath": "COMMAND AND CONTROL/Task 25 - Bug on the Wire.html",
       "dependencies": []
     },
     "COMMAND AND CONTROL/Task 26 - The Blood Oath.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 5635,
       "exportedPath": "COMMAND AND CONTROL/Task 26 - The Blood Oath.html",
       "dependencies": []
     },
     "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6352,
       "exportedPath": "COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....html",
       "dependencies": []
     },
     "NTLM RELAY/Task 45 - Never trust the LanMan.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3566,
       "exportedPath": "NTLM RELAY/Task 45 - Never trust the LanMan.html",
       "dependencies": []
     },
     "NTLM RELAY/Task 46 - Now you see me, now you don't.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 5030,
       "exportedPath": "NTLM RELAY/Task 46 - Now you see me, now you don't.html",
       "dependencies": []
     },
     "NTLM RELAY/Task 47 - Why not just turn it off?.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6831,
       "exportedPath": "NTLM RELAY/Task 47 - Why not just turn it off/Task 47 - Why not just turn it off.html",
       "dependencies": []
     },
     "NTLM RELAY/Task 48 - Ready your weapons.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3246,
       "exportedPath": "NTLM RELAY/Task 48 - Ready your weapons.html",
       "dependencies": []
     },
     "PERSISTENCE/Task 44 - WERE TAKING OVER THIS DLL! Part II.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 7252,
       "exportedPath": "PERSISTENCE/Task 44 - WERE TAKING OVER THIS DLL! Part II.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 22 - Crack all the Things.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 2673,
       "exportedPath": "POST EXPLOITATION/Task 22 - Crack all the Things.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6988,
       "exportedPath": "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4780,
       "exportedPath": "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.html",
       "dependencies": []
     },
     "POST EXPLOITATION/Task 38 - Watson left her locker open.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6308,
       "exportedPath": "POST EXPLOITATION/Task 38 - Watson left her locker open.html",
       "dependencies": []
     },
     "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md": {
-      "modifiedTime": 1732393059013,
-      "sourceSize": 7404,
+      "modifiedTime": 1744827845061,
+      "sourceSize": 7405,
       "exportedPath": "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.html",
       "dependencies": []
     },
     "SITUATIONAL AWARANESS/Task 15 -  Docker? I hardly even know her!.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 3806,
       "exportedPath": "SITUATIONAL AWARANESS/Task 15 -  Docker/Task 15 -  Docker.html",
       "dependencies": []
     },
     "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 7100,
       "exportedPath": "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware/Task 39 - So it's just fancy malware.html",
       "dependencies": []
     },
     "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 2652,
       "exportedPath": "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.html",
       "dependencies": []
     },
     "SITUATIONAL AWARANESS/Task 41 - ALL THE POWER!.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 5962,
       "exportedPath": "SITUATIONAL AWARANESS/Task 41 - ALL THE POWER!.html",
       "dependencies": []
     },
     "SITUATIONAL AWARANESS/Task 42 - Import-Module PowerUpGreySkull.ps1.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 6720,
       "exportedPath": "SITUATIONAL AWARANESS/Task 42 - Import-Module PowerUpGreySkull.ps1.html",
       "dependencies": []
     },
     "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 4642,
       "exportedPath": "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.html",
       "dependencies": []
     },
     "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 7726,
       "exportedPath": "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..html",
       "dependencies": []
     },
     "Conclusion.md": {
-      "modifiedTime": 1732393059013,
+      "modifiedTime": 1744827845061,
       "sourceSize": 1269,
       "exportedPath": "Conclusion.html",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1744827845061,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     }
   }
