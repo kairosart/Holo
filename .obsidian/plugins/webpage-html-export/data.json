@@ -46,6 +46,7 @@
   "exportPath": "/home/emi/Documents/obsidian/Holo/docs",
   "filesToExport": [
     [
+      "AV EVASION",
       "COMMAND AND CONTROL",
       "COMPETITION",
       "DOCKER BREAKOUT",
@@ -53,13 +54,16 @@
       "INITIAL RECON",
       "INTRO",
       "NET BASICS",
+      "NTLM RELAY",
+      "PERSISTENCE",
       "PIVOTING",
       "POST EXPLOITATION",
       "PRIVILEGE ESCALATION",
       "SITUATIONAL AWARANESS",
       "WEB APP EXPLOITATION",
-      "Images/Diagram.svg",
-      "index.md"
+      "Conclusion.md",
+      "index.md",
+      "README.md"
     ]
   ]
 }
