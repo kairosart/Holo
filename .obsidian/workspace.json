@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Task 30 - Basically a joke itself.....md",
+                "file": "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Task 30 - Basically a joke itself...."
+              "title": "Task 29 - Thanks, I'll let myself in."
             }
           },
           {
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Task 29 - Thanks, I'll let myself in."
             }
           },
           {
@@ -308,65 +308,28 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "floating": {
-    "id": "f9f434b389e3e05e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "fa57d8553237170d",
-        "type": "window",
-        "children": [
-          {
-            "id": "c60e63f9a3622c86",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "16e1f34193306f9c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "README"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 510,
-        "y": 540,
-        "width": 900,
-        "height": 500,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "16e1f34193306f9c",
+  "active": "5abee70efbde0908",
   "lastOpenFiles": [
-    "docs/COMMAND AND CONTROL/Task 27 - We ran out of Halo and YAML references....html",
-    "docs/COMMAND AND CONTROL/Task 26 - The Blood Oath.html",
-    "docs/COMMAND AND CONTROL/Task 25 - Bug on the Wire.html",
-    "docs/COMMAND AND CONTROL/Task 24 - Command your Foes and Control your Friends.html",
-    "docs/COMMAND AND CONTROL",
-    "docs/AV EVASION/Task 35 - Wrapping the burrito.html",
-    "docs/AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '.html",
-    "docs/AV EVASION/Task 34 - 'Ca' + 'n' + 'you' + ' ' + 'see' + 'me now' + '",
-    "docs/AV EVASION/Task 33 - JU57 0BFU$C47E 1T.html",
-    "docs/AV EVASION/Task 31 - THEY WONT SEE ME IF I YELL!.html",
-    "docs/AV EVASION/Task 32 - AMSIception.html",
-    "index.md",
-    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
     "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
     "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
+    "WEB APP EXPLOITATION/Task 11 - LEEROY JENKINS!.md",
     "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
+    "AV EVASION/Task 30 - Basically a joke itself.....md",
+    "README.md",
+    "docs/lib/metadata.json",
+    "docs/lib/media/6155340132a851f6089e.svg",
+    "docs/lib/media",
+    "docs/lib/fonts/94f2f163d4b698242fef.otf",
+    "docs/lib/fonts",
+    "docs/README.html",
+    "docs/index.html",
+    "docs/Conclusion.html",
+    "docs/WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..html",
+    "docs/WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.html",
+    "docs/WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.html",
+    "index.md",
+    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
     "SITUATIONAL AWARANESS/Task 42 - Import-Module PowerUpGreySkull.ps1.md",
     "SITUATIONAL AWARANESS/Task 41 - ALL THE POWER!.md",
     "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
@@ -384,9 +347,6 @@
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "PERSISTENCE/Task 44 - WERE TAKING OVER THIS DLL! Part II.md",
-    "NTLM RELAY/Task 48 - Ready your weapons.md",
-    "NTLM RELAY/Task 47 - Why not just turn it off?.md",
-    "docs/lib/media/6155340132a851f6089e.svg",
     "docs/Images/Task 48 - Ready your weapons-20241123142537654.webp",
     "docs/Images/Task 47 - Why not just turn it off/Task 47 - Why not just turn it off.webp",
     "docs/Images/Task 46 - Now you see me, now you don't-20241121145030701.webp",
